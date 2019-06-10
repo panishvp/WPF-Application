@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<ArrayOfCoach xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Coach>
+    <coachId>1</coachId>
+    <coachName>Ravi Shastri</coachName>
+    <birthPlace>Mumbai</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Left-arm orthodox</bowlingStyle>
+    <cachDepartment>Head Coach</cachDepartment>
+    <coachAchievements>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+    </coachAchievements>
+    <imagePath>Images/3.png</imagePath>
+    <role>Batsmen</role>
+  </Coach>
+  <Coach>
+    <coachId>2</coachId>
+    <coachName>Ramakrishnan</coachName>
+    <birthPlace>Mysore</birthPlace>
+    <battingStyle>Left Handed Bat</battingStyle>
+    <bowlingStyle>Right Handed Bat</bowlingStyle>
+    <cachDepartment>Feilding Coach</cachDepartment>
+    <coachAchievements>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+    </coachAchievements>
+    <imagePath>Images/3.png</imagePath>
+    <role>Bowler</role>
+  </Coach>
+  <Coach>
+    <coachId>3</coachId>
+    <coachName>Bharat Arun</coachName>
+    <birthPlace>Vijaywada</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right arm medium-pace</bowlingStyle>
+    <cachDepartment>Bowling Coach</cachDepartment>
+    <coachAchievements>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+    </coachAchievements>
+    <imagePath>Images/3.png</imagePath>
+    <role>All-rounder</role>
+  </Coach>
+  <Coach>
+    <coachId>4</coachId>
+    <coachName>Sanjay Bangar</coachName>
+    <birthPlace>Bhayala </birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium-fast</bowlingStyle>
+    <cachDepartment>Assistant Coach</cachDepartment>
+    <coachAchievements>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+    </coachAchievements>
+    <imagePath>Images/3.png</imagePath>
+    <role>All-rounder</role>
+	
+  </Coach>
+  <Coach>
+    <coachId>5</coachId>
+    <coachName>Basu Shanker </coachName>
+    <birthPlace>Chennai</birthPlace>
+    <battingStyle> </battingStyle>
+    <bowlingStyle> </bowlingStyle>
+    <cachDepartment>Fitness</cachDepartment>
+    <coachAchievements>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+    </coachAchievements>
+    <imagePath>Images/3.png</imagePath>
+    <role> </role>
+  </Coach>
+  
+</ArrayOfCoach>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ArrayOfCoachAchievements xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CoachAchievements>
+    <CoachId>1</CoachId>
+    <AchievementName>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</AchievementName>
+    <AchievementId>0</AchievementId>
+  </CoachAchievements>
+  <CoachAchievements>
+    <CoachId>1</CoachId>
+    <AchievementName>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</AchievementName>
+    <AchievementId>1</AchievementId>
+  </CoachAchievements>
+  <CoachAchievements>
+    <CoachId>1</CoachId>
+    <AchievementName>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</AchievementName>
+    <AchievementId>2</AchievementId>
+  </CoachAchievements>
+  <CoachAchievements>
+    <CoachId>1</CoachId>
+    <AchievementName>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</AchievementName>
+    <AchievementId>3</AchievementId>
+  </CoachAchievements>
+  <CoachAchievements>
+    <CoachId>1</CoachId>
+    <AchievementName>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</AchievementName>
+    <AchievementId>4</AchievementId>
+  </CoachAchievements>
+</ArrayOfCoachAchievements>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="ClubInfo.Matches"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClubInfo"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Background="Wheat"
+        Title="Matches" Height="600" Width="700">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Height="550" Orientation="Vertical" Width="700" DataContext="{Binding ElementName=lbx_Matches_list, Path=SelectedItem}">
+            <Button HorizontalAlignment="Left" VerticalAlignment="Top" Content="Home" Click="Home_Click" Height="30" Width="150" Margin="25,0,0,0">
+                
+            </Button>
+
+            <DataGrid x:Name="Grd_matches" HorizontalAlignment="Center" Margin="25,15,24,0"
+             MouseDoubleClick="Grd_Match_MouseDoubleClick" VerticalAlignment="Top" Width="652" AutoGenerateColumns="False" IsReadOnly="True">
+                <!-- SelectionChanged="Grd_spots_SelectionChanged" -->
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Date" Width="*" Binding="{Binding date}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Match" Width="*" Binding="{Binding matchBetween}" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="MatchType" Width="*" Binding="{Binding matchType}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Result" Width="*" Binding="{Binding result}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+
+    </Grid>
+</Window>

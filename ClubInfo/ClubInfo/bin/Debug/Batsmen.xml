@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<ArrayOfBatsmen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>MS Doni</batsmenName>
+    <outInfo>Caught by abcdefgh</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+</ArrayOfBatsmen>
