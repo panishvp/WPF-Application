@@ -16,7 +16,7 @@
 		<hundreads>41</hundreads>
 		<fifties>49</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/1.png</imagePath>
+		<imagePath>Images/Players/1.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
 		<debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
@@ -34,7 +34,7 @@
 		<hundreads>1</hundreads>
 		<fifties>2</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/2.png</imagePath>
+		<imagePath>Images/Players/2.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
 		<debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
@@ -54,7 +54,7 @@
 		<hundreads>22</hundreads>
 		<fifties>41</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/3.png</imagePath>
+		<imagePath>Images/Players/3.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -73,7 +73,7 @@
 		<hundreads>0</hundreads>
 		<fifties>4</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/4.png</imagePath>
+		<imagePath>Images/Players/4.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -92,7 +92,7 @@
 		<hundreads>0</hundreads>
 		<fifties>0</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/5.png</imagePath>
+		<imagePath>Images/Players/5.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -111,7 +111,7 @@
 		<hundreads>8</hundreads>
 		<fifties>19</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/6.png</imagePath>
+		<imagePath>Images/Players/6.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -130,7 +130,7 @@
 		<hundreads>25</hundreads>
 		<fifties>53</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/7.png</imagePath>
+		<imagePath>Images/Players/7.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -149,7 +149,7 @@
 		<hundreads>16</hundreads>
 		<fifties>35</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/8.png</imagePath>
+		<imagePath>Images/Players/8.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -168,7 +168,7 @@
 		<hundreads>19</hundreads>
 		<fifties>63</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/9.png</imagePath>
+		<imagePath>Images/Players/9.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -187,7 +187,7 @@
 		<hundreads>49</hundreads>
 		<fifties>96</fifties>
 		<isActive>false</isActive>
-		<imagePath>Images/10.png</imagePath>
+		<imagePath>Images/Players/10.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -206,7 +206,7 @@
 		<hundreads>0</hundreads>
 		<fifties>0</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/11.png</imagePath>
+		<imagePath>Images/Players/11.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -225,7 +225,7 @@
 		<hundreads>3</hundreads>
 		<fifties>16</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/12.png</imagePath>
+		<imagePath>Images/Players/12.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -244,7 +244,7 @@
 		<hundreads>0</hundreads>
 		<fifties>0</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/13.png</imagePath>
+		<imagePath>Images/Players/13.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -263,7 +263,7 @@
 		<hundreads>0</hundreads>
 		<fifties>1</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/14.png</imagePath>
+		<imagePath>Images/Players/14.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -282,7 +282,7 @@
 		<hundreads>0</hundreads>
 		<fifties>4</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/15.png</imagePath>
+		<imagePath>Images/Players/15.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -299,7 +299,7 @@
 		<hundreads>0</hundreads>
 		<fifties>1</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/16.png</imagePath>
+		<imagePath>Images/Players/16.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -318,7 +318,7 @@
 		<hundreads>10</hundreads>
 		<fifties>71</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/17.png</imagePath>
+		<imagePath>Images/Players/17.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -337,7 +337,7 @@
 		<hundreads>30</hundreads>
 		<fifties>82</fifties>
 		<isActive>false</isActive>
-		<imagePath>Images/18.png</imagePath>
+		<imagePath>Images/Players/18.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -356,7 +356,7 @@
 		<hundreads>8</hundreads>
 		<fifties>10</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/19.png</imagePath>
+		<imagePath>Images/Players/19.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -373,7 +373,7 @@
 		<hundreads>0</hundreads>
 		<fifties>1</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/16.png</imagePath>
+		<imagePath>Images/Players/16.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -392,7 +392,7 @@
 		<hundreads>10</hundreads>
 		<fifties>71</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/17.png</imagePath>
+		<imagePath>Images/Players/17.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -411,7 +411,7 @@
 		<hundreads>30</hundreads>
 		<fifties>82</fifties>
 		<isActive>false</isActive>
-		<imagePath>Images/18.png</imagePath>
+		<imagePath>Images/Players/18.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -430,7 +430,7 @@
 		<hundreads>8</hundreads>
 		<fifties>10</fifties>
 		<isActive>true</isActive>
-		<imagePath>Images/19.png</imagePath>
+		<imagePath>Images/Players/19.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -447,7 +447,7 @@
 		<hundreads>0</hundreads>
 		<fifties>1</fifties>
 		<isActive>false</isActive>
-		<imagePath>Images/16.png</imagePath>
+		<imagePath>Images/Players/16.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -466,7 +466,7 @@
 		<hundreads>10</hundreads>
 		<fifties>71</fifties>
 		<isActive>false</isActive>
-		<imagePath>Images/17.png</imagePath>
+		<imagePath>Images/Players/17.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -485,7 +485,7 @@
 		<hundreads>30</hundreads>
 		<fifties>82</fifties>
 		<isActive>false</isActive>
-		<imagePath>Images/18.png</imagePath>
+		<imagePath>Images/Players/18.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	<Player>
@@ -504,7 +504,7 @@
 		<hundreads>8</hundreads>
 		<fifties>10</fifties>
 		<isActive>false</isActive>
-		<imagePath>Images/19.png</imagePath>
+		<imagePath>Images/Players/19.png</imagePath>
 		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
 	</Player>
 	</ArrayOfPlayer>
