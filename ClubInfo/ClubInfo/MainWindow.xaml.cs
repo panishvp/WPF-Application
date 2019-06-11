@@ -21,6 +21,7 @@ namespace ClubInfo
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int count = 1;
 
         public MainWindow()
         {
@@ -299,6 +300,37 @@ namespace ClubInfo
             }
             TestStorage.WriteXml<ObservableCollection<Scorecard>>(scoreList, "ScoreCard.xml");
 
-        }        
+        }
+
+        private void Button_Click_Next(object sender, RoutedEventArgs e)
+        {
+            if(count != 0 && count < 10)
+            {
+                BitmapImage logo = new BitmapImage();
+                logo.BeginInit();
+                logo.UriSource = new Uri("C:/Users/paneesh/source/GitRepo/WPF-Application/ClubInfo/ClubInfo/Images/Gallery/"+count+".png");
+                logo.EndInit();
+                Img_gallery.Source = logo;
+                count++;
+            }
+            
+
+        }
+
+        private void Button_Click_Back(object sender, RoutedEventArgs e)
+        {
+
+            if (count > 0)
+            {
+                BitmapImage logo = new BitmapImage();
+                logo.BeginInit();
+                logo.UriSource = new Uri("C:/Users/paneesh/source/GitRepo/WPF-Application/ClubInfo/ClubInfo/Images/Gallery/" + count + ".png");
+                logo.EndInit();
+                Img_gallery.Source = logo;
+                count--;
+            }
+
+
+        }
     }
 }

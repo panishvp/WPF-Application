@@ -23,6 +23,20 @@
         <Image HorizontalAlignment="Left" Height="141" Margin="10,10,0,0" VerticalAlignment="Top" Width="133" Source="Images/logo.png"/>
         <Label Content="Raising Stars Glenmore" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="59,10,0,0" VerticalAlignment="Top" Width="393" FontSize="30" FontWeight="Bold" Foreground="#FF255477" />
         <Label Content="Cricket Club " Grid.Column="2" Height="45" Margin="155,54,294,0" VerticalAlignment="Top" Width="157" FontSize="25" HorizontalAlignment="Center" Foreground="#FF2295A2"/>
+        <Image Grid.Column="2" Name="Img_gallery" HorizontalAlignment="Left" Height="180" Margin="94,156,0,0" VerticalAlignment="Top" Width="320" Source="Images/Gallery/1.png"/>
+        <Button Content="" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="92,218,0,0" VerticalAlignment="Top"  Width="31" Click="Button_Click_Back">
+            <Button.Background>
+                <ImageBrush ImageSource ="Images/back.png" ></ImageBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="383,218,0,0" VerticalAlignment="Top" Width="31" Click="Button_Click_Next">
+            <Button.Background>
+                <ImageBrush ImageSource ="Images/next.png" ></ImageBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock Text="The RSG is the global governing body for cricket. Representing 104 members, the RSG governs and administrates the game and works with our members to grow the sport. The RSG is also responsible for the staging of all RSG Events.
+
+The RSG presides over the RSG Code of Conduct, playing conditions, the Decision Review System and other RSG regulations. The RSG also appoints all match officials that officiate at all sanctioned international matches. Through the Anti-Corruption Unit it coordinates action against corruption and match fixing." Grid.Column="2"  TextWrapping="WrapWithOverflow"  HorizontalAlignment="Left" Height="144" Margin="10,358,0,0" MaxWidth="500"  VerticalAlignment="Top" Width="506"/>
 
 
 

@@ -8,10 +8,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/coach/1.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/coach/2.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/coach/3.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/coach/4.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/coach/5.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/10.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/3.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/4.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/5.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/6.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/7.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/8.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/gallery/9.png")]
 
 
