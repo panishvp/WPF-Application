@@ -4,8 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClubInfo"
-        mc:Ignorable="d"
-        Background="Wheat"
+        mc:Ignorable="d"        
+         Background="#f3fee3"
         Title="MatchScoreCard" Height="900" Width="700">
     <Grid>
         
@@ -17,7 +17,7 @@
                     </StackPanel>
                 </TabItem.Header>
 
-                <Grid Background="Wheat">
+                <Grid Background="#f3fee3">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="51*"/>
                         <ColumnDefinition Width="292*"/>
@@ -68,7 +68,7 @@
                     </StackPanel>
                 </TabItem.Header>
 
-                <Grid Background="Wheat">
+                <Grid Background="#f3fee3">
                     <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Vertical">
                         <TextBlock Text="2nd Innings" Margin="25,0,0,0"></TextBlock>
                         <TextBlock Text="Team B Innings" Margin="0,10,0,0" Width="600" Background="#878787"></TextBlock>

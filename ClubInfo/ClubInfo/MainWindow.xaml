@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ClubInfo"
         mc:Ignorable="d"
-        Background="Wheat"
+        Background="#f3fee3"
         Loaded="Window_Loaded"
         Title="MainWindow" Height="600" Width="800">
     <Grid Margin="0,0,0,-2">
@@ -15,19 +15,17 @@
             <ColumnDefinition Width="606*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel HorizontalAlignment="Left" Height="540"  VerticalAlignment="Top" Width="165" RenderTransformOrigin="1.494,0.433" Grid.ColumnSpan="2">
-            <Button Content="Club Home" HorizontalAlignment="Center" Margin="0,20,0,0" VerticalAlignment="Top" Width="130" Height="70"/>
+        <StackPanel HorizontalAlignment="Left" Height="390"  VerticalAlignment="Top" Width="181" RenderTransformOrigin="1.494,0.433" Grid.ColumnSpan="2" Margin="-5,156,0,0">
             <Button Content="Players" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="130" Height="70" Click="Button_Open_Player_Details_Window"/>
             <Button Content="Coach" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="130" Height="70" Click="Button_Open_Coach_Details_Window"/>
             <Button Content="Matches" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="130" Height="70" Click="Matches_Button_Click"/>
         </StackPanel>
+        <Image HorizontalAlignment="Left" Height="141" Margin="10,10,0,0" VerticalAlignment="Top" Width="133" Source="Images/logo.png"/>
+        <Label Content="Raising Stars Glenmore" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="59,10,0,0" VerticalAlignment="Top" Width="393" FontSize="30" FontWeight="Bold" Foreground="#FF255477" />
+        <Label Content="Cricket Club " Grid.Column="2" Height="45" Margin="155,54,294,0" VerticalAlignment="Top" Width="157" FontSize="25" HorizontalAlignment="Center" Foreground="#FF2295A2"/>
 
 
 
-        <StackPanel HorizontalAlignment="Left" Height="561"   VerticalAlignment="Top" Width="612" Grid.Column="1" Margin="27,0,0,0" Grid.ColumnSpan="2">
-            <TextBlock Text="Welcome to ClubInfo Application" HorizontalAlignment="Center" FontSize="30" Margin="0,10,0,0" />
-
-        </StackPanel>
 
     </Grid>
 </Window>
