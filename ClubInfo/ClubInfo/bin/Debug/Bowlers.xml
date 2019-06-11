@@ -4,13 +4,21 @@
     <matchId>1</matchId>
     <bowlerName>Bumrah</bowlerName>
     <overs>10</overs>
-    <wickets>0</wickets>
+    <wickets>3</wickets>
     <runs>60</runs>
     <economy>6</economy>
   </Bowler>
   <Bowler>
     <matchId>1</matchId>
-    <bowlerName>Bumrah</bowlerName>
+    <bowlerName>B Kumar</bowlerName>
+    <overs>10</overs>
+    <wickets>1</wickets>
+    <runs>60</runs>
+    <economy>6</economy>
+  </Bowler>
+  <Bowler>
+    <matchId>1</matchId>
+    <bowlerName>Stokes</bowlerName>
     <overs>10</overs>
     <wickets>0</wickets>
     <runs>60</runs>
@@ -18,7 +26,7 @@
   </Bowler>
   <Bowler>
     <matchId>1</matchId>
-    <bowlerName>Bumrah</bowlerName>
+    <bowlerName>Rashid</bowlerName>
     <overs>10</overs>
     <wickets>0</wickets>
     <runs>60</runs>
@@ -26,17 +34,9 @@
   </Bowler>
   <Bowler>
     <matchId>1</matchId>
-    <bowlerName>Bumrah</bowlerName>
+    <bowlerName>Roach</bowlerName>
     <overs>10</overs>
-    <wickets>0</wickets>
-    <runs>60</runs>
-    <economy>6</economy>
-  </Bowler>
-  <Bowler>
-    <matchId>1</matchId>
-    <bowlerName>Bumrah</bowlerName>
-    <overs>10</overs>
-    <wickets>0</wickets>
+    <wickets>3</wickets>
     <runs>60</runs>
     <economy>6</economy>
   </Bowler>

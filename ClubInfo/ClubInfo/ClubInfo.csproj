@@ -138,18 +138,6 @@
     <Resource Include="Bitmap1.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Gallery\1.png" />
-    <Resource Include="Images\Gallery\10.png" />
-    <Resource Include="Images\Gallery\2.png" />
-    <Resource Include="Images\Gallery\3.png" />
-    <Resource Include="Images\Gallery\4.png" />
-    <Resource Include="Images\Gallery\5.png" />
-    <Resource Include="Images\Gallery\6.png" />
-    <Resource Include="Images\Gallery\7.png" />
-    <Resource Include="Images\Gallery\8.png" />
-    <Resource Include="Images\Gallery\9.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\back.png" />
     <Resource Include="Images\next.png" />
   </ItemGroup>
@@ -177,6 +165,16 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\Gallery\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Coach\1.png" />
+    <Resource Include="Images\Coach\2.png" />
+    <Resource Include="Images\Coach\3.png" />
+    <Resource Include="Images\Coach\4.png" />
+    <Resource Include="Images\Coach\5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

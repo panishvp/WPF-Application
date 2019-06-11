@@ -3,6 +3,56 @@
   <Batsmen>
     <matchId>1</matchId>
     <batsmenName>MS Doni</batsmenName>
+    <outInfo>Bowled by Bumrah</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>Virat Kohli</batsmenName>
+    <outInfo>Lbw by Stokes</outInfo>
+    <runs>30</runs>
+    <balls>25</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>2</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>Karthik</batsmenName>
+    <outInfo>Bowled by Bumrah</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>Rohit Sharma</batsmenName>
+    <outInfo>Caught by Ponting</outInfo>
+    <runs>27</runs>
+    <balls>14</balls>
+    <strikeRate>197.65</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>Mark wood</batsmenName>
+    <outInfo>Caught by Ab de velliers </outInfo>
+    <runs>40</runs>
+    <balls>40</balls>
+    <strikeRate>100</strikeRate>
+    <fours>3</fours>
+    <sixes>1</sixes>
+  </Batsmen>
+  <Batsmen>
+    <matchId>1</matchId>
+    <batsmenName>Roach</batsmenName>
     <outInfo>Caught by abcdefgh</outInfo>
     <runs>27</runs>
     <balls>14</balls>
@@ -12,8 +62,8 @@
   </Batsmen>
   <Batsmen>
     <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
+    <batsmenName>Anil Kumble</batsmenName>
+    <outInfo>Caught by Bumrah Bowling Russel</outInfo>
     <runs>27</runs>
     <balls>14</balls>
     <strikeRate>197.65</strikeRate>
@@ -22,8 +72,8 @@
   </Batsmen>
   <Batsmen>
     <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
+    <batsmenName>Andre Maccol</batsmenName>
+    <outInfo>Bowled by Russel</outInfo>
     <runs>27</runs>
     <balls>14</balls>
     <strikeRate>197.65</strikeRate>
@@ -32,8 +82,8 @@
   </Batsmen>
   <Batsmen>
     <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
+    <batsmenName>Adil Rashid</batsmenName>
+    <outInfo>Caught by Ponting</outInfo>
     <runs>27</runs>
     <balls>14</balls>
     <strikeRate>197.65</strikeRate>
@@ -42,59 +92,9 @@
   </Batsmen>
   <Batsmen>
     <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
-    <runs>27</runs>
-    <balls>14</balls>
-    <strikeRate>197.65</strikeRate>
-    <fours>3</fours>
-    <sixes>1</sixes>
-  </Batsmen>
-  <Batsmen>
-    <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
-    <runs>27</runs>
-    <balls>14</balls>
-    <strikeRate>197.65</strikeRate>
-    <fours>3</fours>
-    <sixes>1</sixes>
-  </Batsmen>
-  <Batsmen>
-    <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
-    <runs>27</runs>
-    <balls>14</balls>
-    <strikeRate>197.65</strikeRate>
-    <fours>3</fours>
-    <sixes>1</sixes>
-  </Batsmen>
-  <Batsmen>
-    <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
-    <runs>27</runs>
-    <balls>14</balls>
-    <strikeRate>197.65</strikeRate>
-    <fours>3</fours>
-    <sixes>1</sixes>
-  </Batsmen>
-  <Batsmen>
-    <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
-    <runs>27</runs>
-    <balls>14</balls>
-    <strikeRate>197.65</strikeRate>
-    <fours>3</fours>
-    <sixes>1</sixes>
-  </Batsmen>
-  <Batsmen>
-    <matchId>1</matchId>
-    <batsmenName>MS Doni</batsmenName>
-    <outInfo>Caught by abcdefgh</outInfo>
-    <runs>27</runs>
+    <batsmenName>Balaji</batsmenName>
+    <outInfo>Not Out</outInfo>
+    <runs>7</runs>
     <balls>14</balls>
     <strikeRate>197.65</strikeRate>
     <fours>3</fours>

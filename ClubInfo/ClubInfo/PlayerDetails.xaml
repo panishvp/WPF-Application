@@ -30,7 +30,7 @@
                             <StackPanel Orientation="Horizontal" Height="35" Margin="0,10,0,0">
                                 <Image Source="{Binding imagePath}"></Image>
 
-                                <TextBlock>
+                                <TextBlock TextWrapping="Wrap">
                         <Run Text="{Binding playerName}"></Run>
                                 </TextBlock>
                             </StackPanel>

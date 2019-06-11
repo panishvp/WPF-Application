@@ -33,6 +33,7 @@ namespace ClubInfo
             var results = from s in coach select s;
             ObservableCollection<Coach> oc = new ObservableCollection<Coach>(results);
             Lbx_coach.ItemsSource = results;
+            Lbx_coach.SelectedIndex = 0;
             //var achv = (from ac in coach where ac.coachId.Equals(1) select ac.coachAchievements).ToList();
              LoadAchievements();
             //Lbx_coach_Achievements.ItemsSource = achv;

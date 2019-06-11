@@ -1,20 +1,20 @@
 ﻿ClubInfo
 
 
-winexe
+exe
 C#
 .cs
-C:\Users\paneesh\source\repos\ClubInfo\ClubInfo\obj\Release\
+C:\Users\paneesh\source\GitRepo\WPF-Application\ClubInfo\ClubInfo\obj\Release\
 ClubInfo
 none
 false
 TRACE
-C:\Users\paneesh\source\repos\ClubInfo\ClubInfo\App.xaml
-3-130940856
+C:\Users\paneesh\source\GitRepo\WPF-Application\ClubInfo\ClubInfo\App.xaml
+556637146
 
-11-627882018
+18435357173
 131569487696
-CoachDetails.xaml;MainWindow.xaml;PlayerDetails.xaml;
+CoachDetails.xaml;MainWindow.xaml;Matches.xaml;MatchScoreCard.xaml;PlayerDetails.xaml;
 
 True
 
