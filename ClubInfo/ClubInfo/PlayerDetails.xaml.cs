@@ -40,7 +40,9 @@ namespace ClubInfo
 
         private void Window_Closed(object sender, EventArgs e)
         {
-
+            this.Close();
+            MainWindow mw = new MainWindow();
+            mw.Show();
         }
 
         private void Tbx_name_search_input_TextChanged(object sender, TextChangedEventArgs e)

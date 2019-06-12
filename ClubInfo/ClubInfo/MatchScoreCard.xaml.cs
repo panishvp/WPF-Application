@@ -41,5 +41,17 @@ namespace ClubInfo
         {
             this.matches = matches;
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            this.Close();
+            Matches mw = new Matches();
+            mw.Show();
+        }
     }
 }

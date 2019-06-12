@@ -30,6 +30,8 @@ namespace ClubInfo
 
         private void Button_Open_Player_Details_Window(object sender, RoutedEventArgs e)
         {
+
+            this.Hide();
             var playerWindow = new PlayerDetails()
             {
                 Owner = this
@@ -39,6 +41,7 @@ namespace ClubInfo
 
         private void Button_Open_Coach_Details_Window(object sender, RoutedEventArgs e)
         {
+            this.Hide();
             var coachWindow = new CoachDetails()
             {
                 Owner = this
@@ -158,6 +161,7 @@ namespace ClubInfo
 
         private void Matches_Button_Click(object sender, RoutedEventArgs e)
         {
+            this.Hide();
             var coachWindow = new Matches()
             {
                 Owner = this

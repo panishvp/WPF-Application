@@ -8,31 +8,33 @@
         Loaded="Window_Loaded"
         Closed="Window_Closed"
          Background="#f3fee3"
-        Title="PlayerDetails" Height="600" Width="700">
+         WindowStartupLocation="CenterScreen"
+        Title="PlayerDetails" Height="600" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="164*"/>
             <ColumnDefinition Width="9*"/>
         </Grid.ColumnDefinitions>
-        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Height="550" Width="660" Margin="10,15,0,0" Orientation="Horizontal" DataContext="{Binding ElementName=Lbx_players, Path=SelectedItem}" Grid.ColumnSpan="2">
-            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top">
-                
+        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Height="550" Width="780" Margin="10,15,0,0" Orientation="Horizontal" DataContext="{Binding ElementName=Lbx_players, Path=SelectedItem}" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Height="550" Margin="30,0,0,0">
+                <Label Content="Player Profile" Foreground="#FF255477" FontSize="18"></Label>
+                <Image HorizontalAlignment="Left" Height="141" Margin="10,10,0,0" VerticalAlignment="Top" Width="133" Source="Images/logo.png"/>
+
                 <StackPanel Width="150" HorizontalAlignment="Left" Margin="2,10,5,10">
+                    <Label Content="Search for a player "></Label>
                     <TextBox Text="" x:Name="Tbx_name_search_input"
                          Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" ToolTip="Enter Name of the player to filter" TextChanged="Tbx_name_search_input_TextChanged"/>
                     <StackPanel Orientation="Horizontal">
                         <CheckBox Name="newPlayers" Margin="0,10,0,0" Checked="NewPlayers_Checked" Unchecked="NewPlayers_Unchecked" Height="20" Width="150" Foreground="#FF2295A2">Include Old players</CheckBox>
                     </StackPanel>
                 </StackPanel>
-                <ListBox Width="150" Height="421" HorizontalAlignment="Left" VerticalAlignment="Stretch" x:Name="Lbx_players">
+                <ListBox Width="147" Height="250" HorizontalAlignment="Left" VerticalAlignment="Stretch" x:Name="Lbx_players" Margin="5,0,0,0">
                     <ListBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" Height="35" Margin="0,10,0,0">
-                                <Image Source="{Binding imagePath}"></Image>
+                                <Image Source="{Binding imagePath}"/>
 
-                                <TextBlock TextWrapping="Wrap">
-                        <Run Text="{Binding playerName}"></Run>
-                                </TextBlock>
+                                <TextBlock TextWrapping="Wrap"><Run Text="{Binding playerName}"/></TextBlock>
                             </StackPanel>
                         </DataTemplate>
                     </ListBox.ItemTemplate>
@@ -40,106 +42,108 @@
 
 
             </StackPanel>
-            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="520" Height="500" Orientation="Vertical" Margin="0,0,0,0">
+            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="536" Height="524" Orientation="Vertical" Margin="30,0,0,0">
                 <Label Width="200" HorizontalAlignment="Left" Content="{Binding playerName}" FontSize="30" Margin="5,0,0,0"/>
 
-                <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Horizontal" Margin="10,0,0,0" Height="170">
-                    <GroupBox  Width="300" BorderBrush="Black">
+                <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Horizontal" Margin="10,0,-46,0" Height="160" Width="572">
+                    <GroupBox  Width="300" Header="Personal Info" BorderBrush="#436f8e" Margin="0,0,0,0">
                         <StackPanel Orientation="Vertical">
-                            <Label Width="200" HorizontalAlignment="Left" Content="Personal Info" FontSize="20" Margin="0,0,0,0" Foreground="#FF255477"/>
-
 
                             <StackPanel Orientation="Horizontal"             Margin="0,10,0,0">
-                                <TextBlock Text="Birth Place" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding birthPlace}" FontSize="16" Margin="10,0,0,0" />
+                                <TextBlock Text="Birth Place" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                <TextBlock Text="{Binding birthPlace}" FontSize="14" Margin="10,0,0,0" />
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal"             Margin="0,10,0,0">
-                                <TextBlock Text="Role" FontSize="16" Width="100" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding role}" FontSize="16" Margin="10,0,0,0" />
+                                <TextBlock Text="Role" FontSize="14" Width="100" Foreground="#FF2295A2" />
+                                <TextBlock Text="{Binding role}" FontSize="14" Margin="10,0,0,0" />
                             </StackPanel>
 
                             <StackPanel Orientation="Horizontal"             Margin="0,10,0,0">
-                                <TextBlock Text="Batting Style" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding battingStyle}" FontSize="16" Margin="10,0,0,0" />
+                                <TextBlock Text="Batting Style" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                <TextBlock Text="{Binding battingStyle}" FontSize="14" Margin="10,0,0,0" />
                             </StackPanel>
                             <StackPanel Orientation="Horizontal"             Margin="0,10,0,0">
-                                <TextBlock Width="100" Text="Bowling Style" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding bowlingStyle}" FontSize="16" Margin="10,0,0,0" TextWrapping="NoWrap"/>
+                                <TextBlock Width="100" Text="Bowling Style" FontSize="14" Foreground="#FF2295A2" />
+                                <TextBlock Text="{Binding bowlingStyle}" FontSize="14" Margin="10,0,0,0" TextWrapping="NoWrap"/>
                             </StackPanel>
                         </StackPanel>
 
                     </GroupBox>
-                    
-
-
-                    <Image Source="{Binding imagePath}" Height="150" Width="150" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,0,0"/>
+                    <Image Source="{Binding imagePath}" Height="150" Width="150" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="15,0,0,0"/>
                 </StackPanel>
-                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Vertical" Margin="0,10,0,0">
-                    <Label Width="200" HorizontalAlignment="Left" Content="Career Info: " FontSize="20" Margin="5,0,0,0"  Foreground="#FF255477"/>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Vertical" Margin="0,20,0,0" Width="526" Height="344">
 
-                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Orientation="Vertical">
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Width="100" Text="Debut: " FontSize="16" Foreground="#FF2295A2" />
-                            <TextBlock Text="{Binding debut}" FontSize="16" Margin="10,0,0,0" TextWrapping="NoWrap"/>
+                    <GroupBox HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="#436f8e" Margin="10,10,0,0" Header="Career Info" Width="468" Height="177">
+                        <StackPanel  Orientation="Vertical" Margin="0,0,11,0">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Width="100" Text="Debut: " FontSize="14" Foreground="#FF2295A2" />
+                                <TextBlock Text="{Binding debut}" FontSize="14" Margin="10,0,0,0" TextWrapping="NoWrap"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                                <TextBlock Width="100" Text="Last Match: " Foreground="#FF2295A2"  FontSize="14"/>
+                                <TextBlock Text="{Binding lastMatch}" FontSize="14" Margin="10,0,0,0" TextWrapping="NoWrap" />
+                            </StackPanel>
+
+                            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
+                                <StackPanel Orientation="Vertical"             Margin="0,10,0,0">
+                                    <TextBlock Text="Total Matches" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                    <TextBlock Text="{Binding totalMatches}" FontSize="14" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
+                                    <TextBlock Text="Total Runs" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                    <TextBlock Text="{Binding totalRuns}" FontSize="14" Margin="10,0,0,0"  />
+                                </StackPanel>
+
+                                <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
+                                    <TextBlock Text="Highest Runs" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                    <TextBlock Text="{Binding highestRuns}" FontSize="14" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
+                                    <TextBlock Text="Strike Rate" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                    <TextBlock Text="{Binding strikeRate}" FontSize="14" Margin="0,0,0,0"/>
+                                </StackPanel>
+
+
+                            </StackPanel>
+
+                            <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Width="469">
+                                <StackPanel Orientation="Vertical"             Margin="0,10,0,0">
+                                    <TextBlock Text="Hundreds" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                    <TextBlock Text="{Binding hundreads}" FontSize="14" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
+                                    <TextBlock Text="Fifties" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                    <TextBlock Text="{Binding fifties}" FontSize="14" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
+                                    <TextBlock Text="Wickets" Width="100" FontSize="14" Foreground="#FF2295A2" />
+                                    <TextBlock Text="{Binding wickets}" FontSize="14" Margin="10,0,0,0"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
+                                    <TextBlock Text="Bowling Economy" Width="135" FontSize="14" Foreground="#FF2295A2" />
+                                    <TextBlock Text="{Binding bowlingEconomy}" FontSize="14" Margin="10,0,0,0"/>
+                                </StackPanel>
+                            </StackPanel>
                         </StackPanel>
-
-                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
-                            <TextBlock Width="100" Text="Last Match: " Foreground="#FF2295A2"  FontSize="16"/>
-                            <TextBlock Text="{Binding lastMatch}" FontSize="16" Margin="10,0,0,0" TextWrapping="NoWrap" />
-                        </StackPanel>
-                    </StackPanel>
-                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Orientation="Vertical">
-                        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal">
-                            <StackPanel Orientation="Vertical"             Margin="0,10,0,0">
-                                <TextBlock Text="Total Matches" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding totalMatches}" FontSize="16" Margin="10,0,0,0"/>
-                            </StackPanel>
-
-                            <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
-                                <TextBlock Text="Total Runs" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding totalRuns}" FontSize="16" Margin="10,0,0,0"  />
-                            </StackPanel>
-
-                            <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
-                                <TextBlock Text="Highest Runs" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding highestRuns}" FontSize="16" Margin="10,0,0,0"/>
-                            </StackPanel>
-
-                            <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
-                                <TextBlock Text="Strike Rate" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding strikeRate}" FontSize="16" Margin="10,0,0,0"/>
-                            </StackPanel>
+                    </GroupBox>
 
 
-                        </StackPanel>
-
-                        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Width="469">
-                            <StackPanel Orientation="Vertical"             Margin="0,10,0,0">
-                                <TextBlock Text="Hundreds" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding hundreads}" FontSize="16" Margin="10,0,0,0"/>
-                            </StackPanel>
-
-                            <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
-                                <TextBlock Text="Fifties" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding fifties}" FontSize="16" Margin="10,0,0,0"/>
-                            </StackPanel>
-
-                            <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
-                                <TextBlock Text="Wickets" Width="100" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding wickets}" FontSize="16" Margin="10,0,0,0"/>
-                            </StackPanel>
-
-                            <StackPanel Orientation="Vertical"             Margin="10,10,0,0">
-                                <TextBlock Text="Bowling Economy" Width="135" FontSize="16" Foreground="#FF2295A2" />
-                                <TextBlock Text="{Binding bowlingEconomy}" FontSize="16" Margin="10,0,0,0"/>
-                            </StackPanel>
-                        </StackPanel>
-                    </StackPanel>
                     <StackPanel HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" Margin="10,0,0,0">
 
                         <Label Content="Profile: " Width="100" FontSize="20" Foreground="#FF255477" HorizontalAlignment="Left"/>
-                        <TextBlock TextWrapping="WrapWithOverflow" Text="{Binding description}"  FontSize="14" MaxWidth="500" Height="80"/>
+                        <Label>
+
+                            <TextBlock TextWrapping="WrapWithOverflow" Text="{Binding description}"  FontSize="14" MaxWidth="475" Height="80"/>
+
+                        </Label>
+
                     </StackPanel>
                 </StackPanel>
             </StackPanel>

@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:ClubInfo"
         mc:Ignorable="d"        
          Background="#f3fee3"
+        Loaded="Window_Loaded"
+        Closed="Window_Closed"
+         WindowStartupLocation="CenterScreen"
         Title="MatchScoreCard" Height="700" Width="700">
     <Grid>
         

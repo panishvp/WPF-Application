@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Background="#f3fee3"
         Loaded="Window_Loaded"
-        Title="MainWindow" Height="600" Width="800">
+         WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="600" Width="770">
     <Grid Margin="0,0,0,-2">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="143*"/>
@@ -15,28 +16,36 @@
             <ColumnDefinition Width="606*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel HorizontalAlignment="Left" Height="390"  VerticalAlignment="Top" Width="181" RenderTransformOrigin="1.494,0.433" Grid.ColumnSpan="2" Margin="-5,156,0,0">
-            <Button Content="Players" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="130" Height="70" Click="Button_Open_Player_Details_Window"/>
-            <Button Content="Coach" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="130" Height="70" Click="Button_Open_Coach_Details_Window"/>
-            <Button Content="Matches" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" Width="130" Height="70" Click="Matches_Button_Click"/>
+        <StackPanel HorizontalAlignment="Left" Height="228"  VerticalAlignment="Top" Width="148" RenderTransformOrigin="1.494,0.433" Margin="-5,156,0,0">
+            <Button Content="Players" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" Width="80" Height="40" Click="Button_Open_Player_Details_Window"/>
+            <Button Content="Coach" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"  Width="80" Height="40" Click="Button_Open_Coach_Details_Window"/>
+            <Button Content="Matches" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"  Width="80" Height="40" Click="Matches_Button_Click"/>
         </StackPanel>
         <Image HorizontalAlignment="Left" Height="141" Margin="10,10,0,0" VerticalAlignment="Top" Width="133" Source="Images/logo.png"/>
-        <Label Content="Raising Stars Glenmore" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="59,10,0,0" VerticalAlignment="Top" Width="393" FontSize="30" FontWeight="Bold" Foreground="#FF255477" />
-        <Label Content="Cricket Club " Grid.Column="2" Height="45" Margin="155,54,294,0" VerticalAlignment="Top" Width="157" FontSize="25" HorizontalAlignment="Center" Foreground="#FF2295A2"/>
-        <Image Grid.Column="2" Name="Img_gallery" HorizontalAlignment="Left" Height="180" Margin="94,156,0,0" VerticalAlignment="Top" Width="320" Source="Images/Gallery/1.png"/>
-        <Button Content="" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="92,218,0,0" VerticalAlignment="Top"  Width="31" Click="Button_Click_Back">
+        <Label Content="Rising Stars Glenmore" Grid.Column="2" HorizontalAlignment="Left" Height="50" Margin="94,17,0,0" VerticalAlignment="Top" Width="320" FontSize="30" FontWeight="Bold" Foreground="#FF255477" />
+        <Label Content="Cricket Club " Grid.Column="2" Height="45" Margin="165,54,249,0" VerticalAlignment="Top" Width="169" FontSize="25" HorizontalAlignment="Center" Foreground="#FF2295A2"/>
+        <Image Grid.Column="2" Name="Img_gallery" HorizontalAlignment="Center" Height="180" Margin="101,156,162,0" VerticalAlignment="Top" Width="320" Source="Images/Gallery/1.png"/>
+        <Button Content="" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="101,218,0,0" VerticalAlignment="Top"  Width="32" Click="Button_Click_Back">
             <Button.Background>
                 <ImageBrush ImageSource ="Images/back.png" ></ImageBrush>
             </Button.Background>
         </Button>
-        <Button Content="" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="383,218,0,0" VerticalAlignment="Top" Width="31" Click="Button_Click_Next">
+        <Button Content="" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="387,218,0,0" VerticalAlignment="Top" Width="30" Click="Button_Click_Next" RenderTransformOrigin="0.99,0.559">
             <Button.Background>
                 <ImageBrush ImageSource ="Images/next.png" ></ImageBrush>
             </Button.Background>
         </Button>
-        <TextBlock Text="The RSG is the global governing body for cricket. Representing 104 members, the RSG governs and administrates the game and works with our members to grow the sport. The RSG is also responsible for the staging of all RSG Events.
+        <Label  Grid.Column="2"  HorizontalAlignment="Left" Height="90" Margin="21,358,34,0" MaxWidth="500" FontSize="15" VerticalAlignment="Top" Width="528">
+            <TextBlock Text="The RSG is the global governing body for cricket. Representing 104 members, the RSG governs and administrates the game and works with our members to grow the sport. The RSG is also responsible for the staging of all RSG Events." TextWrapping="WrapWithOverflow" TextAlignment="Left"></TextBlock>
+        </Label>
 
-The RSG presides over the RSG Code of Conduct, playing conditions, the Decision Review System and other RSG regulations. The RSG also appoints all match officials that officiate at all sanctioned international matches. Through the Anti-Corruption Unit it coordinates action against corruption and match fixing." Grid.Column="2"  TextWrapping="WrapWithOverflow"  HorizontalAlignment="Left" Height="144" Margin="10,358,0,0" MaxWidth="500"  VerticalAlignment="Top" Width="506"/>
+        <Label  Grid.Column="2"  HorizontalAlignment="Left" Height="90" Margin="21,358,34,0" MaxWidth="500" FontSize="15" VerticalAlignment="Top" Width="528">
+            <TextBlock Text="The RSG is the global governing body for cricket. Representing 104 members, the RSG governs and administrates the game and works with our members to grow the sport. The RSG is also responsible for the staging of all RSG Events." TextWrapping="WrapWithOverflow" TextAlignment="Left"></TextBlock>
+        </Label>
+
+        <Label  Grid.Column="2"  HorizontalAlignment="Left" Height="90" Margin="21,448,0,0" MaxWidth="500" FontSize="15" VerticalAlignment="Top" Width="528">
+            <TextBlock Text="The RSG presides over the RSG Code of Conduct, playing conditions, the Decision Review System and other RSG regulations.The RSG also appoints all match officials that officiate at all sanctioned international matches.Through the Anti-Corruption Unit it coordinates action against corruption and match fixing." TextWrapping="WrapWithOverflow" TextAlignment="Left"></TextBlock>
+        </Label>
 
 
 

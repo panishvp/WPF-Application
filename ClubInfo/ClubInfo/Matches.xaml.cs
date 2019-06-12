@@ -31,8 +31,9 @@ namespace ClubInfo
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-           
 
+            Cmbx_Year.SelectedIndex = 1;
+            Cmbx_location.SelectedIndex = 1;
         }
 
         private void Grd_Match_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -42,9 +43,43 @@ namespace ClubInfo
             matchScoreCard.Show();
         }
 
-        private void Home_Click(object sender, RoutedEventArgs e)
+        private void Cmbx_location_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ComboBoxItem selectedItems = (ComboBoxItem)(Cmbx_location.SelectedValue);
+            string value = (string)(selectedItems.Content);         
+            Console.WriteLine(value);
+
+            switch (value)
+            {
+                case "Away":
+                    Grd_matches.ItemsSource = (from match in matches where match.matchType.Contains("Away") select match).ToList();
+                    break;
+
+                case "Home":
+                    Grd_matches.ItemsSource = (from match in matches where match.matchType.Contains("Home") select match).ToList();
+                    break;
+
+                case "All":
+                    Grd_matches.ItemsSource = (from match in matches select match).ToList();
+                    break;
+            }
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
         {
             this.Close();
+            MainWindow mw = new MainWindow();
+            mw.Show();
+        }
+
+     
+
+        private void Cmbx_Year_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ComboBoxItem selectedYearItems = (ComboBoxItem)(Cmbx_Year.SelectedValue);
+            string yearValue = (string)(selectedYearItems.Content);
+            Console.WriteLine(yearValue);
+            Grd_matches.ItemsSource = (from match in matches where match.date.Contains(yearValue) select match).ToList();
         }
     }
 }

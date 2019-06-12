@@ -17,6 +17,7 @@ namespace ClubInfo
         public List<String> coachAchievements { get; set; }
         public String imagePath { get; set; }
         public String role { get; set; }
+        public String profile { get; set; }
 
     }
 }
