@@ -18,6 +18,7 @@
             <StackPanel Margin="25,0,0,0" Orientation="Horizontal">
                 <Label Content="Search By Year " Margin="0,0,10,0"></Label>
                 <ComboBox Width="150" Name="Cmbx_Year" SelectionChanged="Cmbx_Year_SelectionChanged">
+                    <ComboBoxItem>All</ComboBoxItem>
                     <ComboBoxItem>2010</ComboBoxItem>
                     <ComboBoxItem>2011</ComboBoxItem>
                     <ComboBoxItem>2012</ComboBoxItem>

@@ -65,6 +65,7 @@
       <DependentUpon>Matches.xaml</DependentUpon>
     </Compile>
     <Compile Include="MatchesObj.cs" />
+    <Compile Include="MatchInfo.cs" />
     <Compile Include="MatchScoreCard.xaml.cs">
       <DependentUpon>MatchScoreCard.xaml</DependentUpon>
     </Compile>

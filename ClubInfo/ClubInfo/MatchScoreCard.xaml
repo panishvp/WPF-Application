@@ -11,7 +11,7 @@
          WindowStartupLocation="CenterScreen"
         Title="MatchScoreCard" Height="700" Width="700">
     <Grid>
-        
+
         <TabControl>
             <TabItem>
                 <TabItem.Header>
@@ -20,51 +20,78 @@
                     </StackPanel>
                 </TabItem.Header>
 
-                <Grid Background="#f3fee3">
+                <Grid Background="#f3fee3" Margin="0,-6,0,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="51*"/>
                         <ColumnDefinition Width="292*"/>
                     </Grid.ColumnDefinitions>
-                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Vertical" Grid.ColumnSpan="2">
-                        <TextBlock Text="1st Innings" Foreground="#FF255477" FontSize="15" Margin="25,10,0,0"></TextBlock>
-                        <StackPanel  Orientation="Horizontal"  Margin="25,10,0,0" >
-                            <TextBlock Text="Batting" Foreground="#FF255477" FontSize="14"></TextBlock>
-                            <TextBlock Text="Team B" FontSize="14" Margin="10,0,0,0"></TextBlock>
+                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Vertical" Grid.ColumnSpan="2" Height="591">
+
+                        <StackPanel Orientation="Vertical" Width="422" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,0,0,0">
+
+                            <StackPanel Orientation="Horizontal" Margin="0,15,0,0">
+                                <Label Margin='25,0,0,0' Foreground="#FF2295A2" FontSize="14"  Content="Toss:"></Label>
+                                <Label Foreground="#FF255477" Margin='5,0,0,0' FontSize="14"  Width="335">
+                                    <TextBlock Text="Team A Won the toss and have elected to Bat first" />
+
+
+                                </Label>
+                            </StackPanel>
                         </StackPanel>
-                        <StackPanel  Orientation="Horizontal"  Margin="25,10,0,0" >
-                            <TextBlock Text="Bowling" Foreground="#FF255477" FontSize="14"></TextBlock>
-                            <TextBlock Text="Team A" FontSize="14" Margin="10,0,0,0"></TextBlock>
+                        <StackPanel HorizontalAlignment="Right" Margin="150,0,0,0">
                         </StackPanel>
 
-                        <TextBlock Text="Team B Innings" Margin="0,20,0,0" Width="600" FontSize="14"  Foreground="#FF255477"></TextBlock>
 
-                        <DataGrid x:Name="Grd_scorecard_batsman" HorizontalAlignment="Center" Margin="25,0,24,0"
+
+
+
+
+
+                        <StackPanel Margin="25,20,0,0"  Orientation="Horizontal">
+                            <TextBlock Text="Team A Innings" FontSize="14"  Foreground="#FF255477"></TextBlock>
+                            <TextBlock Text="Total Overs" FontSize="14"  Foreground="#FF255477"   Margin="409,0,0,0"></TextBlock>
+                            <TextBlock Text="40" FontSize="14"  Foreground="#FF255477"   Margin="10,0,0,0"></TextBlock>
+
+                        </StackPanel>
+
+                        <DataGrid x:Name="Grd_scorecard_batsman" HorizontalAlignment="Center" Margin="25,10,24,0"
              VerticalAlignment="Top" Width="600" Height="200" AutoGenerateColumns="False" IsReadOnly="True">
                             <!-- SelectionChanged="Grd_spots_SelectionChanged" -->
                             <DataGrid.Columns>
-                                <DataGridTextColumn Header="Batsman" Width="*" Binding="{Binding batsmenName}" ></DataGridTextColumn>
-                                <DataGridTextColumn Header="Out Info" Width="*" Binding="{Binding outInfo}" ></DataGridTextColumn>
-                                <DataGridTextColumn Header="Runs" Width="*" Binding="{Binding runs}"></DataGridTextColumn>
-                                <DataGridTextColumn Header="Balls" Width="*" Binding="{Binding balls}"></DataGridTextColumn>
-                                <DataGridTextColumn Header="4's" Width="*" Binding="{Binding fours}"></DataGridTextColumn>
-                                <DataGridTextColumn Header="6's" Width="*" Binding="{Binding sixes}"></DataGridTextColumn>
-                                <DataGridTextColumn Header="Strike Rate" Width="*" Binding="{Binding strikeRate}"></DataGridTextColumn>
+                                <DataGridTextColumn Header="Batsman" Width="*" Binding="{Binding batsmenName}" />
+                                <DataGridTextColumn Header="Out Info" Width="*" Binding="{Binding outInfo}" />
+                                <DataGridTextColumn Header="Runs" Width="*" Binding="{Binding runs}"/>
+                                <DataGridTextColumn Header="Balls" Width="*" Binding="{Binding balls}"/>
+                                <DataGridTextColumn Header="4's" Width="*" Binding="{Binding fours}"/>
+                                <DataGridTextColumn Header="6's" Width="*" Binding="{Binding sixes}"/>
+                                <DataGridTextColumn Header="Strike Rate" Width="*" Binding="{Binding strikeRate}"/>
                             </DataGrid.Columns>
                         </DataGrid>
+
+                        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,10,0,0" Orientation="Horizontal">
+
+                            <TextBlock Text="Total:" Foreground="#FF2295A2" FontSize="14"/>
+                            <TextBlock Text="300" FontSize="14" Foreground="#FF255477" Margin="10,0,0,0">
+                                
+                            </TextBlock>
+                            
+                            
+                        </StackPanel>
 
 
                         <DataGrid x:Name="Grd_scorecard_bowler" HorizontalAlignment="Center" Margin="25,15,24,0"
               VerticalAlignment="Top" Width="600" Height="130" AutoGenerateColumns="False" IsReadOnly="True">
-                            <!-- SelectionChanged="Grd_spots_SelectionChanged" -->
+                           
                             <DataGrid.Columns>
-                                <DataGridTextColumn Header="Bowler" Width="*" Binding="{Binding bowlerName}" ></DataGridTextColumn>
-                                <DataGridTextColumn Header="Overs" Width="*" Binding="{Binding overs}" ></DataGridTextColumn>
-                                <DataGridTextColumn Header="Wickets" Width="*" Binding="{Binding wickets}"></DataGridTextColumn>
-                                <DataGridTextColumn Header="Runs" Width="*" Binding="{Binding runs}"></DataGridTextColumn>
-                                <DataGridTextColumn Header="Economy" Width="*" Binding="{Binding economy}"></DataGridTextColumn>
+                                <DataGridTextColumn Header="Bowler" Width="*" Binding="{Binding bowlerName}" />
+                                <DataGridTextColumn Header="Overs" Width="*" Binding="{Binding overs}" />
+                                <DataGridTextColumn Header="Wickets" Width="*" Binding="{Binding wickets}"/>
+                                <DataGridTextColumn Header="Runs" Width="*" Binding="{Binding runs}"/>
+                                <DataGridTextColumn Header="Economy" Width="*" Binding="{Binding economy}"/>
                             </DataGrid.Columns>
                         </DataGrid>
-
+                        
+                        
 
                     </StackPanel>
 
@@ -80,14 +107,17 @@
                 </TabItem.Header>
 
                 <Grid Background="#f3fee3">
-                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Vertical">
-                        <TextBlock Text="2nd Innings" Foreground="#FF255477" FontSize="15" Margin="25,10,0,0"></TextBlock>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="47*"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Vertical" Grid.ColumnSpan="2">
                         <StackPanel  Orientation="Horizontal"  Margin="25,10,0,0" >
-                            <TextBlock Text="Batting" Foreground="#FF255477" FontSize="14"></TextBlock>
+                            <TextBlock Text="Batting Team" Foreground="#FF255477" FontSize="14"></TextBlock>
                             <TextBlock Text="Team A" FontSize="14" Margin="10,0,0,0"></TextBlock>
                         </StackPanel>
                         <StackPanel  Orientation="Horizontal"  Margin="25,10,0,0" >
-                            <TextBlock Text="Bowling" Foreground="#FF255477" FontSize="14"></TextBlock>
+                            <TextBlock Text="Bowling Team" Foreground="#FF255477" FontSize="14"></TextBlock>
                             <TextBlock Text="Team B" FontSize="14" Margin="10,0,0,0"></TextBlock>
                         </StackPanel>
                         <StackPanel Margin="25,20,0,0"  Orientation="Horizontal">
@@ -97,7 +127,7 @@
 
                         </StackPanel>
 
-                        
+
                         <DataGrid x:Name="Grd_scorecard_batsman_inn2" HorizontalAlignment="Center" Margin="25,0,24,0"
              VerticalAlignment="Top" Width="600" Height="200" AutoGenerateColumns="False" IsReadOnly="True">
                             <!-- SelectionChanged="Grd_spots_SelectionChanged" -->

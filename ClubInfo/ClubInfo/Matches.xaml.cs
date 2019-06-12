@@ -32,8 +32,8 @@ namespace ClubInfo
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
 
-            Cmbx_Year.SelectedIndex = 1;
-            Cmbx_location.SelectedIndex = 1;
+            Cmbx_Year.SelectedIndex = 0;
+            Cmbx_location.SelectedIndex = 0;
         }
 
         private void Grd_Match_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -79,7 +79,14 @@ namespace ClubInfo
             ComboBoxItem selectedYearItems = (ComboBoxItem)(Cmbx_Year.SelectedValue);
             string yearValue = (string)(selectedYearItems.Content);
             Console.WriteLine(yearValue);
-            Grd_matches.ItemsSource = (from match in matches where match.date.Contains(yearValue) select match).ToList();
+            if (yearValue.Equals("All"))
+            {
+                Grd_matches.ItemsSource = (from match in matches select match).ToList();
+            }
+            else
+            {
+                Grd_matches.ItemsSource = (from match in matches where match.date.Contains(yearValue) select match).ToList();
+            }
         }
     }
 }

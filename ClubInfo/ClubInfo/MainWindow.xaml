@@ -16,12 +16,12 @@
             <ColumnDefinition Width="606*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel HorizontalAlignment="Left" Height="228"  VerticalAlignment="Top" Width="148" RenderTransformOrigin="1.494,0.433" Margin="-5,156,0,0">
+        <StackPanel HorizontalAlignment="Left" Height="228"  VerticalAlignment="Top" Width="148" RenderTransformOrigin="1.494,0.433" Margin="0,170,0,0">
             <Button Content="Players" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" Width="80" Height="40" Click="Button_Open_Player_Details_Window"/>
             <Button Content="Coach" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"  Width="80" Height="40" Click="Button_Open_Coach_Details_Window"/>
             <Button Content="Matches" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"  Width="80" Height="40" Click="Matches_Button_Click"/>
         </StackPanel>
-        <Image HorizontalAlignment="Left" Height="141" Margin="10,10,0,0" VerticalAlignment="Top" Width="133" Source="Images/logo.png"/>
+        <Image HorizontalAlignment="Left" Height="141" Margin="10,30,0,0" VerticalAlignment="Top" Width="133" Source="Images/logo.png"/>
         <Label Content="Rising Stars Glenmore" Grid.Column="2" HorizontalAlignment="Left" Height="50" Margin="94,17,0,0" VerticalAlignment="Top" Width="320" FontSize="30" FontWeight="Bold" Foreground="#FF255477" />
         <Label Content="Cricket Club " Grid.Column="2" Height="45" Margin="165,54,249,0" VerticalAlignment="Top" Width="169" FontSize="25" HorizontalAlignment="Center" Foreground="#FF2295A2"/>
         <Image Grid.Column="2" Name="Img_gallery" HorizontalAlignment="Center" Height="180" Margin="101,156,162,0" VerticalAlignment="Top" Width="320" Source="Images/Gallery/1.png"/>

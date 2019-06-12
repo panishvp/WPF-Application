@@ -54,8 +54,46 @@ namespace ClubInfo
             //generateMatches(40); 
             //generateScoreCard(40);
             //generateBatnBowlers();
-            GenerateCoachAchievements(5);
+            //GenerateCoachAchievements(5);
+            //generateMatchesInfos(40);
         }
+        private void generateMatchesInfos(int counts)
+        {
+            Random rnd = new Random();
+            var list = new ObservableCollection<MatchInfo>();
+            MatchInfo matchInfo = new MatchInfo();
+            for (int j=0; j< counts; j++)
+            {
+                matchInfo = new MatchInfo
+                {
+                    matchId = j,
+                    firstInningsScore = rnd.Next(200, 300),
+                    secondInningsScore = rnd.Next(200, 300),
+                    overs = rnd.Next(25, 40),
+                    teamOne = "Rising Stars",
+                    teamTwo = "Blasters",
+                    toss = getToss(j)                   
+
+                };
+                list.Add(matchInfo);
+            }
+            TestStorage.WriteXml<ObservableCollection<MatchInfo>>(list, "MatchInfo.xml");
+
+        }
+
+        private String getToss(int c)
+        {
+            if(c % 2 == 0)
+            {
+                return "Rising stars won the toss and chose to bat first";
+            }
+            else
+            {
+                return "Rising stars won the toss and chose to bowl first";
+            }
+
+        }
+        
 
         private void GeneratePlayers(int count)
         {
@@ -110,12 +148,13 @@ namespace ClubInfo
             String coachAchiv = "His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.";
             var list = new ObservableCollection<CoachAchievements>();
             CoachAchievements coachAchievements = new CoachAchievements();
+
             for(int i=0; i< num; i++)
             {
                 coachAchievements = new CoachAchievements
                 {
                     AchievementId = i,
-                    CoachId = 1,
+                    CoachId = 1,                    
                     AchievementName = coachAchiv
 
                 };
