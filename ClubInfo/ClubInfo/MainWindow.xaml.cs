@@ -347,7 +347,12 @@ namespace ClubInfo
 
         private void Button_Click_Next(object sender, RoutedEventArgs e)
         {
-            if(count != 0 && count < 10)
+            if (count == 10 || count > 10)
+            {
+                count = 1;
+            }
+
+            if (count != 0 && count < 10)
             {
                 BitmapImage logo = new BitmapImage();
                 logo.BeginInit();
@@ -362,6 +367,10 @@ namespace ClubInfo
 
         private void Button_Click_Back(object sender, RoutedEventArgs e)
         {
+            if(count == 0 || count < 0)
+            {
+                count = 10;
+            }
 
             if (count > 0)
             {

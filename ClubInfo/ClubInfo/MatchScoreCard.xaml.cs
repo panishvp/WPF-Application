@@ -40,6 +40,7 @@ namespace ClubInfo
         public MatchScoreCard(MatchesObj selectedItem, Matches matches) : this(selectedItem)
         {
             this.matches = matches;
+          
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)

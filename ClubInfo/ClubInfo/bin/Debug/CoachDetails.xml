@@ -3,36 +3,36 @@
   <Coach>
     <coachId>1</coachId>
     <coachName>Rahul Dravid</coachName>
-    <birthPlace>Mumbai</birthPlace>
+    <birthPlace>Indore</birthPlace>
     <battingStyle>Right Handed Bat</battingStyle>
     <bowlingStyle>Left-arm orthodox</bowlingStyle>
     <cachDepartment>Head Coach</cachDepartment>
-	<imagePath>Images/Coach/1.png</imagePath>
-    <profile>Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19.</profile>
+    <imagePath>Images/Coach/1.png</imagePath>
+    <profile>Rahul Sharad Dravid is a former Indian cricketer and captain, widely regarded as one of the greatest batsmen in the history of cricket. He is the current Overseas Batting Consultant for the Indian team, and also the head coach for the Under-19.</profile>
     <coachAchievements>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>Rahul Dravid retired as the third most capped player in Test cricket having played 164 matches, only behind Sachin Tendulkar (200 matches) and Steve Waugh (168 matches). Since then, Ricky Ponting and Jacques Kallis have overtaken him</string>
+      <string>Dravid retired as the third highest run getter of all time in Test cricket with an aggregate of 13,288 runs from 164 matches at an average of 52.31 behind only Tendulkar who has scored 15,470 runs from 188 matches. Then, the record was broken by Jacques Kallis before his retirement.</string>
+      <string>Dravid has five double hundreds registered to his name. The Indian record for most double hundreds is held jointly by Tendulkar and Virender Sehwag who have 6 double hundreds each.</string>
+      <string>Dravid is the only non-wicketkeeper fielder who has taken more than 50 catches off the bowling of two different bowlers. Dravid has taken 55 catches of Anil Kumble's bowling and 51 catches of Harbhajan Singh's bowling. Other fielders who have taken more than 50 catches off the bowling of a single bowler are Mahela Jayawardene (77 catches of Muttiah Muralitharan's bowling) and Mark Taylor (51 catches of Shane Warne's bowling)</string>
+      <string>He was the leading run scorer in the 1999 World Cup with 461 runs.</string>
     </coachAchievements>
     <role>Batsmen</role>
   </Coach>
   <Coach>
     <coachId>2</coachId>
     <coachName>Anil Kumble</coachName>
-    <birthPlace>Mysore</birthPlace>
+    <birthPlace>Bengaluru</birthPlace>
     <battingStyle>Left Handed Bat</battingStyle>
     <bowlingStyle>Right Handed Bat</bowlingStyle>
     <cachDepartment>Feilding Coach</cachDepartment>
-	<imagePath>Images/Coach/2.png</imagePath>
-    <profile>Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19.</profile>
+    <imagePath>Images/Coach/2.png</imagePath>
+    <profile>Anil Kumble is an Indian cricket coach, cricket commentator and former cricketer, who played Tests and ODIs for 18 years. A right-arm leg spin bowler, he took 619 wickets in Test cricket and remains the third-highest wicket taker of all time</profile>
     <coachAchievements>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>Kumble has featured in 132 Test matches picking up 619 wickets at an average of 29.65 with an economy rate of 2.69 and a strike rate of 65.90. He has 337 ODI wickets from 265 innings, which are the highest for an Indian bowler.</string>
+      <string>One of his most famous achievement is being the second bowler to hold the record of dismissing all 10 batsmen in an innings after Jim Laker. This feat was achieved in 1999 while playing against Pakistan in Delhi. A traffic circle in Bangalore was named after him to commemorate this feat.</string>
+      <string>Kumble was the first bowler to hold the record of taking his first 50 wickets in only 10 matches.</string>
+      <string>Took his first 10-wicket-haul in a match against Sri Lanka in 1994. He is the only player to have taken all 10 wickets in an innings and also scored a century in Tests which is a rare feat indeed and speaks volumes about Jumbo’s talent.</string>
+      <string>Was a handy batsman and proved that he was a match winner for India by adding 52 runs for the ninth wicket and helping the team chase the target of 216 runs in the ‘Titan Cup’ against Australia to take India to one for their most famous wins. Scored his maiden Test century with an innings of 110 against England in 2007.</string>
     </coachAchievements>
     <imagePath>Images/3.png</imagePath>
     <role>Bowler</role>
@@ -40,57 +40,54 @@
   <Coach>
     <coachId>3</coachId>
     <coachName>Gary Kirsten</coachName>
-    <birthPlace>Vijaywada</birthPlace>
+    <birthPlace>Cape Town</birthPlace>
     <battingStyle>Right Handed Bat</battingStyle>
     <bowlingStyle>Right arm medium-pace</bowlingStyle>
     <cachDepartment>Bowling Coach</cachDepartment>
-	<imagePath>Images/Coach/3.png</imagePath>
-    <profile>Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19.</profile>
+    <imagePath>Images/Coach/3.png</imagePath>
+    <profile>Gary Kirsten is a former South African cricketer, and the World Cup winning coach of the Indian cricket team. He has played 101 Test matches and 185 One Day Internationals for South Africa between 1993 and 2004</profile>
     <coachAchievements>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>Gary retired from international cricket in 2004. He was appointed the coach of the Indian cricket team in March 2008, and continued with the team till their victorious campaign at the 2011 ICC Cricket World Cup.</string>
+      <string>On 5 June 2011, Kirsten was appointed the full-time coach of the South Africa national cricket team for a term period of two years. Kirsten was appointed the coach of the Hobart Hurricanes cricket team in April 2017.</string>
+      <string>Kirsten has played the second-longest innings in Test history and scored 275 runs for over 14 and a half hours against England.</string>
+      <string>On 26 December 1993, Kirsten made his Test debut against Australia in Melbourne. He made ODI debut on 11 December 1993 in a match against New Zealand At Adelaide Oval.</string>
     </coachAchievements>
     <role>All-rounder</role>
   </Coach>
   <Coach>
     <coachId>4</coachId>
     <coachName>Jonty Rhodes</coachName>
-    <birthPlace>Bhayala </birthPlace>
+    <birthPlace> Pietermaritzburg</birthPlace>
     <battingStyle>Right Handed Bat</battingStyle>
     <bowlingStyle>Right-arm medium-fast</bowlingStyle>
     <cachDepartment>Assistant Coach</cachDepartment>
-	<imagePath>Images/Coach/4.png</imagePath>
-    <profile>Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19.</profile>
+    <imagePath>Images/Coach/4.png</imagePath>
+    <profile>Jonathan Neil Rhodes is a South African cricket commentator and former Test and One Day International cricketer. He is commonly regarded as one of the greatest fielders of all time. He played for the South African between 1992 and 2003.</profile>
     <coachAchievements>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>Rhodes made his international debut on 26 February in the 1992 ICC World Cup match against Australia at Sydney Cricket Ground. In his debut match, he didn't get a chance to bat as it was a low scoring match which South Africa won easily.</string>
+      <string>In 1997, he completely changed his batting techniques and improved as a batsman. After the change, he averaged 50 for the rest of his Test career.</string>
+      <string>On 14 November 1993 against West Indies, Rhodes took five catches, the most dismissal by a fielder apart from the wicketkeeper. He has three centuries and 17 half centuries in his name in Test Cricket. In ODIs, he scored 2 centuries and 33 half centuries in 245 matches.</string>
     </coachAchievements>
     <role>All-rounder</role>
-	
+
   </Coach>
   <Coach>
     <coachId>5</coachId>
     <coachName>Mohammad Kaif </coachName>
-    <birthPlace>Chennai</birthPlace>
-   <battingStyle>Right Handed Bat</battingStyle>
+    <birthPlace>Prayagraj</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
     <bowlingStyle>Right-arm medium-fast</bowlingStyle>
     <cachDepartment>Fitness</cachDepartment>
-	<imagePath>Images/Coach/5.png</imagePath>
-    <profile>Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19.</profile>
+    <imagePath>Images/Coach/5.png</imagePath>
+    <profile>Mohammad Kaif is a former Indian cricketer, who played Tests and ODIs. He made it to the national team on the strength of his performances at the Under-19 level</profile>
     <coachAchievements>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
-      <string>His interview from Bangkok for the Head Coach and his subsequent tiff with Sourav Ganguly made headlines, but after Anil Kumble's unceremonious exit after the 2017 Champions Trophy, he was back in the chair.</string>
+      <string>Mohammad Kaif was given a spot in the national team and played his first Test match against South Africa national team at M. Chinnaswamy Stadium on Mar 02, 2000. However, his performance in the following string of games had been poor and eventually, he was dropped off.</string>
+      <string>Mohammad Kaif became a national hero overnight when he scored an unbeaten 75-ball 87 runs in the 2002 Natwest Series final against England. He batted with Yuvraj Singh and together they scored a whopping 121 runs. Kaif was rightfully adjudged the Man of the Match for his magnificent performance as India managed to achieve a record-breaking target of 326.</string>
+      <string>Mohammad Kaif played for Rajasthan Royals in the IPL. His IPL debut was versus Delhi Daredevils at Feroz Shah Kotla on Apr 19, 2008.</string>
+      <string>Mohammad Kaif was the captain of the U-19 national cricket team. He led the team to victory in the 2000 World Cup. He is said to have contributed incredible skills thereby earning excellent stats.</string>
+      <string>He played for India national cricket team, India Red, Kings XI Punjab, Rajasthan Royals, Royal Challengers Bangalore and Uttar Pradesh.</string>
     </coachAchievements>
     <role> </role>
   </Coach>
-  
+
 </ArrayOfCoach>

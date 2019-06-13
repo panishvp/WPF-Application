@@ -51,30 +51,60 @@ namespace ClubInfo
             Console.WriteLine(filter);
             if (filter == "")
             {
-                Lbx_players.ItemsSource = players;
+                var value = !newPlayers.IsChecked;
+                if (value == true)
+                    players_Unchecked();
+                else
+                    players_Checked();
                 Lbx_players.SelectedIndex=0;
             }
             else
             {
-                var value = newPlayers.IsChecked;
-                Console.WriteLine(value);
-                var results = from s in players where s.playerName.ToLower().Contains(filter) && s.isActive.Equals(value) select s;
-                
-                ObservableCollection < Player > oc = new ObservableCollection<Player>(results);
+                var value = !newPlayers.IsChecked;
+                if (value == true)
+                    players_Unchecked();
+                else
+                    players_Checked();
+                Console.WriteLine(value);                
+                var results = from s in players where s.playerName.ToLower().Contains(filter) && s.isActive.Equals(value) select s;                
+                ObservableCollection <Player> oc = new ObservableCollection<Player>(results);
                 Lbx_players.ItemsSource = oc;
+              
             }
+        }
+
+        private void players_Checked()
+        {
+            var value = !newPlayers.IsChecked;
+            var resP = from s in players where s.isActive.Equals(value) select s;
+            foreach (var item in resP)
+            {
+                Console.WriteLine(item);
+            }
+            Lbx_players.ItemsSource = resP;
+            Lbx_players.SelectedIndex = 0;
+        }
+
+        private void players_Unchecked()
+        {
+            var value = !newPlayers.IsChecked;
+            var resP = from s in players where s.isActive.Equals(value) select s;
+            foreach (var item in resP)
+            {
+                Console.WriteLine(item);
+            }
+            Lbx_players.ItemsSource = resP;
+            Lbx_players.SelectedIndex = 0;
         }
 
         private void NewPlayers_Checked(object sender, RoutedEventArgs e)
         {
-            players = TestStorage.ReadXml<ObservableCollection<Player>>("PlayersInfo.xml");
-            Lbx_players.ItemsSource = players;
+            players_Checked();
         }
 
         private void NewPlayers_Unchecked(object sender, RoutedEventArgs e)
         {
-            var results = from s in players where s.isActive=true select s;
-            Lbx_players.ItemsSource = players;
+            players_Unchecked();
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)

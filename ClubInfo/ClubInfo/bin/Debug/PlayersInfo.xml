@@ -1,510 +1,501 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ArrayOfPlayer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<Player>
-		<playerId>1</playerId>
-		<playerName>Virat Kohli</playerName>
-		<role>Batsman</role>
-		<birthPlace>Delhi</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>206</totalMatches>
-		<totalRuns>8010</totalRuns>
-		<wickets>8</wickets>
-		<highestRuns>183</highestRuns>
-		<strikeRate>137.68</strikeRate>
-		<bowlingEconomy>5.21</bowlingEconomy>
-		<hundreads>41</hundreads>
-		<fifties>49</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/1.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
-		<debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>2</playerId>
-		<playerName>Lokesh Rahul</playerName>
-		<role>Wk-Batsman</role>
-		<birthPlace>Mangaluru</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<totalMatches>14</totalMatches>
-		<totalRuns>343</totalRuns>
-		<wickets>0</wickets>
-		<highestRuns>100</highestRuns>
-		<strikeRate>80.9</strikeRate>
-		<hundreads>1</hundreads>
-		<fifties>2</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/2.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
-		<debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>3</playerId>
-		<playerName>Rohit Sharma</playerName>
-		<role>Batsman</role>
-		<birthPlace>Nagpur</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm offbreak</bowlingStyle>
-		<totalMatches>206</totalMatches>
-		<totalRuns>8010</totalRuns>
-		<wickets>8</wickets>
-		<highestRuns>264</highestRuns>
-		<strikeRate>87.95</strikeRate>
-		<bowlingEconomy>5.21</bowlingEconomy>
-		<hundreads>22</hundreads>
-		<fifties>41</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/3.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>4</playerId>
-		<playerName>Hardik Pandya</playerName>
-		<role>Allrounder</role>
-		<birthPlace>Mumbai</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm fast-medium</bowlingStyle>
-		<totalMatches>45</totalMatches>
-		<totalRuns>731</totalRuns>
-		<wickets>44</wickets>
-		<highestRuns>83</highestRuns>
-		<strikeRate>116.59</strikeRate>
-		<bowlingEconomy>5.54</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>4</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/4.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>5</playerId>
-		<playerName>Jasprit Bumrah</playerName>
-		<role>Bowler</role>
-		<birthPlace>Ahmedabad</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm fast-medium</bowlingStyle>
-		<totalMatches>49</totalMatches>
-		<totalRuns>18</totalRuns>
-		<wickets>85</wickets>
-		<highestRuns>10</highestRuns>
-		<strikeRate>42</strikeRate>
-		<bowlingEconomy>4.5</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>0</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/5.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>6</playerId>
-		<playerName>Steve Smith</playerName>
-		<role>Batsman</role>
-		<birthPlace>Sydney</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm legbreak</bowlingStyle>
-		<totalMatches>109</totalMatches>
-		<totalRuns>3449</totalRuns>
-		<wickets>27</wickets>
-		<highestRuns>154</highestRuns>
-		<strikeRate>86.9</strikeRate>
-		<bowlingEconomy>5.34</bowlingEconomy>
-		<hundreads>8</hundreads>
-		<fifties>19</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/6.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>7</playerId>
-		<playerName>Ab de villiers</playerName>
-		<role>Batsman</role>
-		<birthPlace>Bela-Bela</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>228</totalMatches>
-		<totalRuns>9575</totalRuns>
-		<wickets>7</wickets>
-		<highestRuns>176</highestRuns>
-		<strikeRate>101.1</strikeRate>
-		<bowlingEconomy>6.31</bowlingEconomy>
-		<hundreads>25</hundreads>
-		<fifties>53</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/7.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>8</playerId>
-		<playerName>Martin Guptill</playerName>
-		<role>Batsman</role>
-		<birthPlace>Auckland</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm offbreak</bowlingStyle>
-		<totalMatches>170</totalMatches>
-		<totalRuns>6513</totalRuns>
-		<wickets>4</wickets>
-		<highestRuns>237</highestRuns>
-		<strikeRate>87.1</strikeRate>
-		<bowlingEconomy>5.87</bowlingEconomy>
-		<hundreads>16</hundreads>
-		<fifties>35</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/8.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>9</playerId>
-		<playerName>Brian Lara</playerName>
-		<role>Batsman</role>
-		<birthPlace>Cantaro, Santa Cruz, </birthPlace>
-		<battingStyle>Left Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm legbreak</bowlingStyle>
-		<totalMatches>299</totalMatches>
-		<totalRuns>10405</totalRuns>
-		<wickets>4</wickets>
-		<highestRuns>169</highestRuns>
-		<strikeRate>79.8</strikeRate>
-		<bowlingEconomy>7.47</bowlingEconomy>
-		<hundreads>19</hundreads>
-		<fifties>63</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/9.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>10</playerId>
-		<playerName>Sachin Tendulkar</playerName>
-		<role>Batsman</role>
-		<birthPlace>Mumbai</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm legbreak</bowlingStyle>
-		<totalMatches>463</totalMatches>
-		<totalRuns>18427</totalRuns>
-		<wickets>164</wickets>
-		<highestRuns>200</highestRuns>
-		<strikeRate>86.7</strikeRate>
-		<bowlingEconomy>5.1</bowlingEconomy>
-		<hundreads>49</hundreads>
-		<fifties>96</fifties>
-		<isActive>false</isActive>
-		<imagePath>Images/Players/10.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>11</playerId>
-		<playerName>Anil Kumble</playerName>
-		<role>Bowler</role>
-		<birthPlace>Bangalore</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm legbreak</bowlingStyle>
-		<totalMatches>271</totalMatches>
-		<totalRuns>938</totalRuns>
-		<wickets>337</wickets>
-		<highestRuns>26</highestRuns>
-		<strikeRate>61.01</strikeRate>
-		<bowlingEconomy>4.31</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>0</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/11.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>12</playerId>
-		<playerName>Ben Stokes</playerName>
-		<role>Allrounder</role>
-		<birthPlace>Canterbury</birthPlace>
-		<battingStyle>Left Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm-fast-medium</bowlingStyle>
-		<totalMatches>85</totalMatches>
-		<totalRuns>2350</totalRuns>
-		<wickets>65</wickets>
-		<highestRuns>102</highestRuns>
-		<strikeRate>94.7</strikeRate>
-		<bowlingEconomy>6.14</bowlingEconomy>
-		<hundreads>3</hundreads>
-		<fifties>16</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/12.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>13</playerId>
-		<playerName>Mark Wood</playerName>
-		<role>Bowler</role>
-		<birthPlace>Ashington</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm fast</bowlingStyle>
-		<totalMatches>40</totalMatches>
-		<totalRuns>45</totalRuns>
-		<wickets>43</wickets>
-		<highestRuns>13</highestRuns>
-		<strikeRate>88.2</strikeRate>
-		<bowlingEconomy>5.64</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>0</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/13.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>14</playerId>
-		<playerName>Adil Rashid</playerName>
-		<role>Bowler</role>
-		<birthPlace>Bradford</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm legbreak</bowlingStyle>
-		<totalMatches>88</totalMatches>
-		<totalRuns>543</totalRuns>
-		<wickets>133</wickets>
-		<highestRuns>69</highestRuns>
-		<strikeRate>101.1</strikeRate>
-		<bowlingEconomy>5.6</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>1</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/14.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>15</playerId>
-		<playerName>Andre Russel</playerName>
-		<role>Allrounder</role>
-		<birthPlace>Jamica</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm-fast</bowlingStyle>
-		<totalMatches>53</totalMatches>
-		<totalRuns>998</totalRuns>
-		<wickets>67</wickets>
-		<highestRuns>92</highestRuns>
-		<strikeRate>130.5</strikeRate>
-		<bowlingEconomy>5.86</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>4</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/15.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>16</playerId>
-		<playerName>Kemar Roach</playerName>
-		<role>Wicket Keeper</role>
-		<birthPlace>St. Lucy, Barbados</birthPlace>
-		<totalMatches>85</totalMatches>
-		<totalRuns>280</totalRuns>
-		<wickets>113</wickets>
-		<highestRuns>34</highestRuns>
-		<strikeRate>84.2</strikeRate>
-		<bowlingEconomy>5.6</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>1</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/16.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>17</playerId>
-		<playerName>MS Doni </playerName>
-		<role>Wicket Keeper</role>
-		<birthPlace>Ranchi</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>341</totalMatches>
-		<totalRuns>10500</totalRuns>
-		<wickets>1</wickets>
-		<highestRuns>183</highestRuns>
-		<strikeRate>87.4</strikeRate>
-		<bowlingEconomy>5.17</bowlingEconomy>
-		<hundreads>10</hundreads>
-		<fifties>71</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/17.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>18</playerId>
-		<playerName>Ricky Ponting</playerName>
-		<role>Batsman</role>
-		<birthPlace>Launceston</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>375</totalMatches>
-		<totalRuns>13750</totalRuns>
-		<wickets>3</wickets>
-		<highestRuns>164</highestRuns>
-		<strikeRate>80.4</strikeRate>
-		<bowlingEconomy>4.14</bowlingEconomy>
-		<hundreads>30</hundreads>
-		<fifties>82</fifties>
-		<isActive>false</isActive>
-		<imagePath>Images/Players/18.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>19</playerId>
-		<playerName>Andrew Mccol</playerName>
-		<role>Bowler</role>
-		<birthPlace>Frankfurt</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>100</totalMatches>
-		<totalRuns>1550</totalRuns>
-		<wickets>50</wickets>
-		<highestRuns>150</highestRuns>
-		<strikeRate>87.4</strikeRate>
-		<bowlingEconomy>5.15</bowlingEconomy>
-		<hundreads>8</hundreads>
-		<fifties>10</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/19.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>16</playerId>
-		<playerName>Kemar Roach</playerName>
-		<role>Wicket Keeper</role>
-		<birthPlace>St. Lucy, Barbados</birthPlace>
-		<totalMatches>85</totalMatches>
-		<totalRuns>280</totalRuns>
-		<wickets>113</wickets>
-		<highestRuns>34</highestRuns>
-		<strikeRate>84.2</strikeRate>
-		<bowlingEconomy>5.6</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>1</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/16.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>17</playerId>
-		<playerName>MS Doni </playerName>
-		<role>Wicket Keeper</role>
-		<birthPlace>Ranchi</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>341</totalMatches>
-		<totalRuns>10500</totalRuns>
-		<wickets>1</wickets>
-		<highestRuns>183</highestRuns>
-		<strikeRate>87.4</strikeRate>
-		<bowlingEconomy>5.17</bowlingEconomy>
-		<hundreads>10</hundreads>
-		<fifties>71</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/17.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>18</playerId>
-		<playerName>Ricky Ponting</playerName>
-		<role>Batsman</role>
-		<birthPlace>Launceston</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>375</totalMatches>
-		<totalRuns>13750</totalRuns>
-		<wickets>3</wickets>
-		<highestRuns>164</highestRuns>
-		<strikeRate>80.4</strikeRate>
-		<bowlingEconomy>4.14</bowlingEconomy>
-		<hundreads>30</hundreads>
-		<fifties>82</fifties>
-		<isActive>false</isActive>
-		<imagePath>Images/Players/18.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>19</playerId>
-		<playerName>Andrew Mccol</playerName>
-		<role>Bowler</role>
-		<birthPlace>Frankfurt</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>100</totalMatches>
-		<totalRuns>1550</totalRuns>
-		<wickets>50</wickets>
-		<highestRuns>150</highestRuns>
-		<strikeRate>87.4</strikeRate>
-		<bowlingEconomy>5.15</bowlingEconomy>
-		<hundreads>8</hundreads>
-		<fifties>10</fifties>
-		<isActive>true</isActive>
-		<imagePath>Images/Players/19.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>16</playerId>
-		<playerName>Kemar Roach</playerName>
-		<role>Wicket Keeper</role>
-		<birthPlace>St. Lucy, Barbados</birthPlace>
-		<totalMatches>85</totalMatches>
-		<totalRuns>280</totalRuns>
-		<wickets>113</wickets>
-		<highestRuns>34</highestRuns>
-		<strikeRate>84.2</strikeRate>
-		<bowlingEconomy>5.6</bowlingEconomy>
-		<hundreads>0</hundreads>
-		<fifties>1</fifties>
-		<isActive>false</isActive>
-		<imagePath>Images/Players/16.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>17</playerId>
-		<playerName>MS Doni </playerName>
-		<role>Wicket Keeper</role>
-		<birthPlace>Ranchi</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>341</totalMatches>
-		<totalRuns>10500</totalRuns>
-		<wickets>1</wickets>
-		<highestRuns>183</highestRuns>
-		<strikeRate>87.4</strikeRate>
-		<bowlingEconomy>5.17</bowlingEconomy>
-		<hundreads>10</hundreads>
-		<fifties>71</fifties>
-		<isActive>false</isActive>
-		<imagePath>Images/Players/17.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>18</playerId>
-		<playerName>Ricky Ponting</playerName>
-		<role>Batsman</role>
-		<birthPlace>Launceston</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>375</totalMatches>
-		<totalRuns>13750</totalRuns>
-		<wickets>3</wickets>
-		<highestRuns>164</highestRuns>
-		<strikeRate>80.4</strikeRate>
-		<bowlingEconomy>4.14</bowlingEconomy>
-		<hundreads>30</hundreads>
-		<fifties>82</fifties>
-		<isActive>false</isActive>
-		<imagePath>Images/Players/18.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	<Player>
-		<playerId>19</playerId>
-		<playerName>Andrew Mccol</playerName>
-		<role>Bowler</role>
-		<birthPlace>Frankfurt</birthPlace>
-		<battingStyle>Right Handed Bat</battingStyle>
-		<bowlingStyle>Right-arm medium</bowlingStyle>
-		<totalMatches>100</totalMatches>
-		<totalRuns>1550</totalRuns>
-		<wickets>50</wickets>
-		<highestRuns>150</highestRuns>
-		<strikeRate>87.4</strikeRate>
-		<bowlingEconomy>5.15</bowlingEconomy>
-		<hundreads>8</hundreads>
-		<fifties>10</fifties>
-		<isActive>false</isActive>
-		<imagePath>Images/Players/19.png</imagePath>
-		<description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description><debut>vs AFL club at Kingsmead, Sep 19, 2007</debut><lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
-	</Player>
-	</ArrayOfPlayer>
+  <Player>
+    <playerId>1</playerId>
+    <playerName>Virat Kohli</playerName>
+    <role>Batsman</role>
+    <birthPlace>Delhi</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium</bowlingStyle>
+    <totalMatches>206</totalMatches>
+    <totalRuns>8010</totalRuns>
+    <wickets>8</wickets>
+    <highestRuns>183</highestRuns>
+    <strikeRate>137.68</strikeRate>
+    <bowlingEconomy>5.21</bowlingEconomy>
+    <hundreads>41</hundreads>
+    <fifties>49</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/1.png</imagePath>
+    <description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>2</playerId>
+    <playerName>Lokesh Rahul</playerName>
+    <role>Wk-Batsman</role>
+    <birthPlace>Mangaluru</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <totalMatches>14</totalMatches>
+    <totalRuns>343</totalRuns>
+    <wickets>0</wickets>
+    <highestRuns>100</highestRuns>
+    <strikeRate>80.9</strikeRate>
+    <hundreads>1</hundreads>
+    <fifties>2</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/2.png</imagePath>
+    <description> Kannur Lokesh Rahul, commonly known as KL Rahul, is an Indian cricketer. A top-order batsman and occasional wicket-keeper, he plays for India internationally, Karnataka in domestic circuit and Kings XI Punjab in the Indian Premier League.  </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>3</playerId>
+    <playerName>Rohit Sharma</playerName>
+    <role>Batsman</role>
+    <birthPlace>Nagpur</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm offbreak</bowlingStyle>
+    <totalMatches>206</totalMatches>
+    <totalRuns>8010</totalRuns>
+    <wickets>8</wickets>
+    <highestRuns>264</highestRuns>
+    <strikeRate>87.95</strikeRate>
+    <bowlingEconomy>5.21</bowlingEconomy>
+    <hundreads>22</hundreads>
+    <fifties>41</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/3.png</imagePath>
+    <description> Rohit Gurunath Sharma is an Indian international cricketer who is the vice-captain of the India national team in limited-overs formats. He is a right-handed batsman and was an occasional right-arm off break bowler. He plays for Mumbai in domestic cricket and captains Mumbai Indians in the Indian Premier League. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>4</playerId>
+    <playerName>Hardik Pandya</playerName>
+    <role>Allrounder</role>
+    <birthPlace>Mumbai</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm fast-medium</bowlingStyle>
+    <totalMatches>45</totalMatches>
+    <totalRuns>731</totalRuns>
+    <wickets>44</wickets>
+    <highestRuns>83</highestRuns>
+    <strikeRate>116.59</strikeRate>
+    <bowlingEconomy>5.54</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>4</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/4.png</imagePath>
+    <description> Hardik Himanshu Pandya is an Indian international cricketer who plays for Baroda in domestic cricket and Mumbai Indians in the Indian Premier League. He is an all-rounder who bats right-handed and bowls right-arm fast-medium. He is the younger brother of Krunal Pandya. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>5</playerId>
+    <playerName>Jasprit Bumrah</playerName>
+    <role>Bowler</role>
+    <birthPlace>Ahmedabad</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm fast-medium</bowlingStyle>
+    <totalMatches>49</totalMatches>
+    <totalRuns>18</totalRuns>
+    <wickets>85</wickets>
+    <highestRuns>10</highestRuns>
+    <strikeRate>42</strikeRate>
+    <bowlingEconomy>4.5</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>0</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/5.png</imagePath>
+    <description> Jasprit Jasbirsingh Bumrah is an Indian cricketer who plays for the Indian national cricket team in all formats of the game. He consistently bowls at 140–145 kilometres per hour making him one of the fastest bowlers in India. He also specialises in bowling in-swinging yorker deliveries.</description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>6</playerId>
+    <playerName>Steve Smith</playerName>
+    <role>Batsman</role>
+    <birthPlace>Sydney</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm legbreak</bowlingStyle>
+    <totalMatches>109</totalMatches>
+    <totalRuns>3449</totalRuns>
+    <wickets>27</wickets>
+    <highestRuns>154</highestRuns>
+    <strikeRate>86.9</strikeRate>
+    <bowlingEconomy>5.34</bowlingEconomy>
+    <hundreads>8</hundreads>
+    <fifties>19</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/6.png</imagePath>
+    <description> Steven Peter Devereux Smith is an Australian international cricketer and former captain of the Australian national team. On 30 December 2017, he reached a Test batting rating of 947, the second-highest of all time, only behind Don Bradman's 961. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>7</playerId>
+    <playerName>Ab de villiers</playerName>
+    <role>Batsman</role>
+    <birthPlace>Bela-Bela</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium</bowlingStyle>
+    <totalMatches>228</totalMatches>
+    <totalRuns>9575</totalRuns>
+    <wickets>7</wickets>
+    <highestRuns>176</highestRuns>
+    <strikeRate>101.1</strikeRate>
+    <bowlingEconomy>6.31</bowlingEconomy>
+    <hundreads>25</hundreads>
+    <fifties>53</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/7.png</imagePath>
+    <description> De Villiers began his international career as a wicket-keeper-batsman, but he has played most often solely as a batsman. He batted at various positions in the batting order, but predominantly in the middle-order. Noted as one of the most innovative batsmen in the modern game, de Villiers is known for a range of unorthodox shots, particularly behind the wicket-keeper.</description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>8</playerId>
+    <playerName>Martin Guptill</playerName>
+    <role>Batsman</role>
+    <birthPlace>Auckland</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm offbreak</bowlingStyle>
+    <totalMatches>170</totalMatches>
+    <totalRuns>6513</totalRuns>
+    <wickets>4</wickets>
+    <highestRuns>237</highestRuns>
+    <strikeRate>87.1</strikeRate>
+    <bowlingEconomy>5.87</bowlingEconomy>
+    <hundreads>16</hundreads>
+    <fifties>35</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/8.png</imagePath>
+    <description>Guptil went on to set a new ODI record for New Zealand when he made the highest score of Guptill's career, the 237 not out he scored in the 2015 World Cup against West Indies at Wellington.</description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>9</playerId>
+    <playerName>Brian Lara</playerName>
+    <role>Batsman</role>
+    <birthPlace>Cantaro, Santa Cruz, </birthPlace>
+    <battingStyle>Left Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm legbreak</bowlingStyle>
+    <totalMatches>299</totalMatches>
+    <totalRuns>10405</totalRuns>
+    <wickets>4</wickets>
+    <highestRuns>169</highestRuns>
+    <strikeRate>79.8</strikeRate>
+    <bowlingEconomy>7.47</bowlingEconomy>
+    <hundreads>19</hundreads>
+    <fifties>63</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/9.png</imagePath>
+    <description> Lara holds several world records for high scoring. He has the highest individual score in both first-class cricket (501 not out for Warwickshire against Durham in 1994) and Test cricket (400 not out for the West Indies against England in 2004). </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>10</playerId>
+    <playerName>Sachin Tendulkar</playerName>
+    <role>Batsman</role>
+    <birthPlace>Mumbai</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm legbreak</bowlingStyle>
+    <totalMatches>463</totalMatches>
+    <totalRuns>18427</totalRuns>
+    <wickets>164</wickets>
+    <highestRuns>200</highestRuns>
+    <strikeRate>86.7</strikeRate>
+    <bowlingEconomy>5.1</bowlingEconomy>
+    <hundreads>49</hundreads>
+    <fifties>96</fifties>
+    <isActive>false</isActive>
+    <imagePath>Images/Players/10.png</imagePath>
+    <description> He is colloquially known as Little Master or Master Blaster, and often referred to as the God of Cricket by cricket followers. In 2001, Sachin Tendulkar became the first batsman to complete 10,000 ODI runs in his 259 innings. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>11</playerId>
+    <playerName>Anil Kumble</playerName>
+    <role>Bowler</role>
+    <birthPlace>Bangalore</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm legbreak</bowlingStyle>
+    <totalMatches>271</totalMatches>
+    <totalRuns>938</totalRuns>
+    <wickets>337</wickets>
+    <highestRuns>26</highestRuns>
+    <strikeRate>61.01</strikeRate>
+    <bowlingEconomy>4.31</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>0</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/11.png</imagePath>
+    <description> Anil Kumble is an Indian cricket coach, cricket commentator and former cricketer, who played Tests and ODIs for 18 years. A right-arm leg spin bowler, he took 619 wickets in Test cricket and remains the third-highest wicket taker of all time. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>12</playerId>
+    <playerName>Ben Stokes</playerName>
+    <role>Allrounder</role>
+    <birthPlace>Canterbury</birthPlace>
+    <battingStyle>Left Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm-fast-medium</bowlingStyle>
+    <totalMatches>85</totalMatches>
+    <totalRuns>2350</totalRuns>
+    <wickets>65</wickets>
+    <highestRuns>102</highestRuns>
+    <strikeRate>94.7</strikeRate>
+    <bowlingEconomy>6.14</bowlingEconomy>
+    <hundreads>3</hundreads>
+    <fifties>16</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/12.png</imagePath>
+    <description> Ben Stokes captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>13</playerId>
+    <playerName>Mark Wood</playerName>
+    <role>Bowler</role>
+    <birthPlace>Ashington</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm fast</bowlingStyle>
+    <totalMatches>40</totalMatches>
+    <totalRuns>45</totalRuns>
+    <wickets>43</wickets>
+    <highestRuns>13</highestRuns>
+    <strikeRate>88.2</strikeRate>
+    <bowlingEconomy>5.64</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>0</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/13.png</imagePath>
+    <description> Mark Wood captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>14</playerId>
+    <playerName>Adil Rashid</playerName>
+    <role>Bowler</role>
+    <birthPlace>Bradford</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm legbreak</bowlingStyle>
+    <totalMatches>88</totalMatches>
+    <totalRuns>543</totalRuns>
+    <wickets>133</wickets>
+    <highestRuns>69</highestRuns>
+    <strikeRate>101.1</strikeRate>
+    <bowlingEconomy>5.6</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>1</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/14.png</imagePath>
+    <description> Adil Rashid captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>15</playerId>
+    <playerName>Andre Russel</playerName>
+    <role>Allrounder</role>
+    <birthPlace>Jamica</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm-fast</bowlingStyle>
+    <totalMatches>53</totalMatches>
+    <totalRuns>998</totalRuns>
+    <wickets>67</wickets>
+    <highestRuns>92</highestRuns>
+    <strikeRate>130.5</strikeRate>
+    <bowlingEconomy>5.86</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>4</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/15.png</imagePath>
+    <description> Andre Russel captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>16</playerId>
+    <playerName>Kemar Roach</playerName>
+    <role>Wicket Keeper</role>
+    <birthPlace>St. Lucy, Barbados</birthPlace>
+    <totalMatches>85</totalMatches>
+    <totalRuns>280</totalRuns>
+    <wickets>113</wickets>
+    <highestRuns>34</highestRuns>
+    <strikeRate>84.2</strikeRate>
+    <bowlingEconomy>5.6</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>1</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/16.png</imagePath>
+    <description> Kemar Roach captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>17</playerId>
+    <playerName>MS Doni </playerName>
+    <role>Wicket Keeper</role>
+    <birthPlace>Ranchi</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium</bowlingStyle>
+    <totalMatches>341</totalMatches>
+    <totalRuns>10500</totalRuns>
+    <wickets>1</wickets>
+    <highestRuns>183</highestRuns>
+    <strikeRate>87.4</strikeRate>
+    <bowlingEconomy>5.17</bowlingEconomy>
+    <hundreads>10</hundreads>
+    <fifties>71</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/17.png</imagePath>
+    <description> Mahendra Singh Dhoni, commonly known as MS Dhoni, is an Indian international cricketer who captained the Indian national team in limited-overs formats from 2007 to 2016 and in Test cricket from 2008 to 2014. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  
+  <Player>
+    <playerId>19</playerId>
+    <playerName>Andrew Mccol</playerName>
+    <role>Bowler</role>
+    <birthPlace>Frankfurt</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium</bowlingStyle>
+    <totalMatches>100</totalMatches>
+    <totalRuns>1550</totalRuns>
+    <wickets>50</wickets>
+    <highestRuns>150</highestRuns>
+    <strikeRate>87.4</strikeRate>
+    <bowlingEconomy>5.15</bowlingEconomy>
+    <hundreads>8</hundreads>
+    <fifties>10</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/19.png</imagePath>
+    <description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>16</playerId>
+    <playerName>Kemar Roach</playerName>
+    <role>Wicket Keeper</role>
+    <birthPlace>St. Lucy, Barbados</birthPlace>
+    <totalMatches>85</totalMatches>
+    <totalRuns>280</totalRuns>
+    <wickets>113</wickets>
+    <highestRuns>34</highestRuns>
+    <strikeRate>84.2</strikeRate>
+    <bowlingEconomy>5.6</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>1</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/16.png</imagePath>
+    <description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>17</playerId>
+    <playerName>MS Doni </playerName>
+    <role>Wicket Keeper</role>
+    <birthPlace>Ranchi</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium</bowlingStyle>
+    <totalMatches>341</totalMatches>
+    <totalRuns>10500</totalRuns>
+    <wickets>1</wickets>
+    <highestRuns>183</highestRuns>
+    <strikeRate>87.4</strikeRate>
+    <bowlingEconomy>5.17</bowlingEconomy>
+    <hundreads>10</hundreads>
+    <fifties>71</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/17.png</imagePath>
+    <description> MS Dhoni captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>18</playerId>
+    <playerName>Ricky Ponting</playerName>
+    <role>Batsman</role>
+    <birthPlace>Launceston</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium</bowlingStyle>
+    <totalMatches>375</totalMatches>
+    <totalRuns>13750</totalRuns>
+    <wickets>3</wickets>
+    <highestRuns>164</highestRuns>
+    <strikeRate>80.4</strikeRate>
+    <bowlingEconomy>4.14</bowlingEconomy>
+    <hundreads>30</hundreads>
+    <fifties>82</fifties>
+    <isActive>false</isActive>
+    <imagePath>Images/Players/18.png</imagePath>
+    <description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>19</playerId>
+    <playerName>Andrew Mccol</playerName>
+    <role>Bowler</role>
+    <birthPlace>Frankfurt</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium</bowlingStyle>
+    <totalMatches>100</totalMatches>
+    <totalRuns>1550</totalRuns>
+    <wickets>50</wickets>
+    <highestRuns>150</highestRuns>
+    <strikeRate>87.4</strikeRate>
+    <bowlingEconomy>5.15</bowlingEconomy>
+    <hundreads>8</hundreads>
+    <fifties>10</fifties>
+    <isActive>true</isActive>
+    <imagePath>Images/Players/19.png</imagePath>
+    <description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+  <Player>
+    <playerId>16</playerId>
+    <playerName>Kemar Roach</playerName>
+    <role>Wicket Keeper</role>
+    <birthPlace>St. Lucy, Barbados</birthPlace>
+    <totalMatches>85</totalMatches>
+    <totalRuns>280</totalRuns>
+    <wickets>113</wickets>
+    <highestRuns>34</highestRuns>
+    <strikeRate>84.2</strikeRate>
+    <bowlingEconomy>5.6</bowlingEconomy>
+    <hundreads>0</hundreads>
+    <fifties>1</fifties>
+    <isActive>false</isActive>
+    <imagePath>Images/Players/16.png</imagePath>
+    <description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player> 
+  
+  <Player>
+    <playerId>19</playerId>
+    <playerName>Andrew Mccol</playerName>
+    <role>Bowler</role>
+    <birthPlace>Frankfurt</birthPlace>
+    <battingStyle>Right Handed Bat</battingStyle>
+    <bowlingStyle>Right-arm medium</bowlingStyle>
+    <totalMatches>100</totalMatches>
+    <totalRuns>1550</totalRuns>
+    <wickets>50</wickets>
+    <highestRuns>150</highestRuns>
+    <strikeRate>87.4</strikeRate>
+    <bowlingEconomy>5.15</bowlingEconomy>
+    <hundreads>8</hundreads>
+    <fifties>10</fifties>
+    <isActive>false</isActive>
+    <imagePath>Images/Players/19.png</imagePath>
+    <description> Kohli captained India Under-19s to victory at the 2008 Under-19 World Cup in Malaysia, and a few months later, made his ODI debut for India against Sri Lanka at the age of 19. </description>
+    <debut>vs AFL club at Kingsmead, Sep 19, 2007</debut>
+    <lastMatch>vs DFL club at The Rose Bowl, Jun 05, 2019</lastMatch>
+  </Player>
+</ArrayOfPlayer>

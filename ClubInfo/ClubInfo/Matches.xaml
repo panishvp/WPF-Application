@@ -18,11 +18,7 @@
             <StackPanel Margin="25,0,0,0" Orientation="Horizontal">
                 <Label Content="Search By Year " Margin="0,0,10,0"></Label>
                 <ComboBox Width="150" Name="Cmbx_Year" SelectionChanged="Cmbx_Year_SelectionChanged">
-                    <ComboBoxItem>All</ComboBoxItem>
-                    <ComboBoxItem>2010</ComboBoxItem>
-                    <ComboBoxItem>2011</ComboBoxItem>
-                    <ComboBoxItem>2012</ComboBoxItem>
-                    <ComboBoxItem>2013</ComboBoxItem>
+                    <ComboBoxItem>All</ComboBoxItem>              
                     <ComboBoxItem>2014</ComboBoxItem>
                     <ComboBoxItem>2015</ComboBoxItem>
                     <ComboBoxItem>2016</ComboBoxItem>
@@ -43,10 +39,10 @@
             <DataGrid x:Name="Grd_matches" Height="450" HorizontalAlignment="Left" Margin="25,15,24,0"
              MouseDoubleClick="Grd_Match_MouseDoubleClick" VerticalAlignment="Top" Width="650" AutoGenerateColumns="False" IsReadOnly="True">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Date" Width="*" Binding="{Binding date}"></DataGridTextColumn>
-                    <DataGridTextColumn Header="Match" Width="*" Binding="{Binding matchBetween}" ></DataGridTextColumn>
-                    <DataGridTextColumn Header="MatchType" Width="*" Binding="{Binding matchType}"></DataGridTextColumn>
-                    <DataGridTextColumn Header="Result" Width="*" Binding="{Binding result}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Date" Width="*" Binding="{Binding date}" Foreground="#FF255477" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="Match" Width="*" Binding="{Binding matchBetween}" Foreground="#FF255477"></DataGridTextColumn>
+                    <DataGridTextColumn Header="MatchType" Width="*" Binding="{Binding matchType}" Foreground="#FF255477"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Result" Width="*" Binding="{Binding result}" Foreground="#FF255477"></DataGridTextColumn>
                 </DataGrid.Columns>
             </DataGrid>
         </StackPanel>

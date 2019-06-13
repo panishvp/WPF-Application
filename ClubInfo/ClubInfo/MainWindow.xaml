@@ -16,7 +16,7 @@
             <ColumnDefinition Width="606*"/>
         </Grid.ColumnDefinitions>
 
-        <StackPanel HorizontalAlignment="Left" Height="228"  VerticalAlignment="Top" Width="148" RenderTransformOrigin="1.494,0.433" Margin="0,170,0,0">
+        <StackPanel HorizontalAlignment="Left" Height="228"  VerticalAlignment="Top" Width="148" RenderTransformOrigin="1.494,0.433" Margin="11,170,0,0" Grid.ColumnSpan="2">
             <Button Content="Players" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" Width="80" Height="40" Click="Button_Open_Player_Details_Window"/>
             <Button Content="Coach" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"  Width="80" Height="40" Click="Button_Open_Coach_Details_Window"/>
             <Button Content="Matches" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top"  Width="80" Height="40" Click="Matches_Button_Click"/>
@@ -30,21 +30,19 @@
                 <ImageBrush ImageSource ="Images/back.png" ></ImageBrush>
             </Button.Background>
         </Button>
-        <Button Content="" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="387,218,0,0" VerticalAlignment="Top" Width="30" Click="Button_Click_Next" RenderTransformOrigin="0.99,0.559">
+        <Button Content="" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="385,218,0,0" VerticalAlignment="Top" Width="30" Click="Button_Click_Next" RenderTransformOrigin="0.99,0.559">
             <Button.Background>
                 <ImageBrush ImageSource ="Images/next.png" ></ImageBrush>
             </Button.Background>
         </Button>
-        <Label  Grid.Column="2"  HorizontalAlignment="Left" Height="90" Margin="21,358,34,0" MaxWidth="500" FontSize="15" VerticalAlignment="Top" Width="528">
-            <TextBlock Text="The RSG is the global governing body for cricket. Representing 104 members, the RSG governs and administrates the game and works with our members to grow the sport. The RSG is also responsible for the staging of all RSG Events." TextWrapping="WrapWithOverflow" TextAlignment="Left"></TextBlock>
-        </Label>
+       
 
         <Label  Grid.Column="2"  HorizontalAlignment="Left" Height="90" Margin="21,358,34,0" MaxWidth="500" FontSize="15" VerticalAlignment="Top" Width="528">
-            <TextBlock Text="The RSG is the global governing body for cricket. Representing 104 members, the RSG governs and administrates the game and works with our members to grow the sport. The RSG is also responsible for the staging of all RSG Events." TextWrapping="WrapWithOverflow" TextAlignment="Left"></TextBlock>
+            <TextBlock Text="The RSG is the global governing body for cricket. Representing 104 members, the RSG governs and administrates the game and works with our members to grow the sport. The RSG is also responsible for the staging of all RSG Events." TextWrapping="WrapWithOverflow" TextAlignment="Left" Foreground="#FF255477"></TextBlock>
         </Label>
 
         <Label  Grid.Column="2"  HorizontalAlignment="Left" Height="90" Margin="21,448,0,0" MaxWidth="500" FontSize="15" VerticalAlignment="Top" Width="528">
-            <TextBlock Text="The RSG presides over the RSG Code of Conduct, playing conditions, the Decision Review System and other RSG regulations.The RSG also appoints all match officials that officiate at all sanctioned international matches.Through the Anti-Corruption Unit it coordinates action against corruption and match fixing." TextWrapping="WrapWithOverflow" TextAlignment="Left"></TextBlock>
+            <TextBlock Text="The RSG presides over the RSG Code of Conduct, playing conditions, the Decision Review System and other RSG regulations.The RSG also appoints all match officials that officiate at all sanctioned international matches.Through the Anti-Corruption Unit it coordinates action against corruption and match fixing." TextWrapping="WrapWithOverflow" TextAlignment="Left" Foreground="#FF255477"></TextBlock>
         </Label>
 
 

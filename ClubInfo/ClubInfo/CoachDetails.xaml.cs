@@ -34,15 +34,16 @@ namespace ClubInfo
             ObservableCollection<Coach> oc = new ObservableCollection<Coach>(results);
             Lbx_coach.ItemsSource = results;
             Lbx_coach.SelectedIndex = 0;
-            //var achv = (from ac in coach where ac.coachId.Equals(1) select ac.coachAchievements).ToList();
-             LoadAchievements();
+            var achv = (from ac in coach where ac.coachId.Equals(1) select ac.coachAchievements);
+            LoadAchievements(0);
             //Lbx_coach_Achievements.ItemsSource = achv;
         }
 
-       private void LoadAchievements()
+       private void LoadAchievements(int index)
         {
+            index = index + 1;
             var coachAchievements = TestStorage.ReadXml<ObservableCollection<CoachAchievements>>("CoachAchievements.xml");
-            Lbx_coach_Achievements.ItemsSource = coachAchievements;
+            Lbx_coach_Achievements.ItemsSource = from ca in coachAchievements where ca.AchievementId.Equals(index) select ca;
             /**foreach (var item in coachAchievements)
             {               
                     var achv = new Label();
@@ -61,10 +62,9 @@ namespace ClubInfo
             mw.Show();
         }
 
-
-        private void Home_Click(object sender, RoutedEventArgs e)
+        private void Lbx_coach_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            this.Close();
+            LoadAchievements(Lbx_coach.SelectedIndex);
         }
     }
 }
